@@ -23,7 +23,6 @@ export default function Intro() {
   }, 1500); // Show "I am" for 1.5 seconds
 
   setTimeout(() => {
-    setShowHello(false);
     setShowOther(true);
   }, 3500); // Hide "Hello" after 3.5 seconds
   return (
