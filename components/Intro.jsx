@@ -5,6 +5,7 @@ import React from 'react'
 import  { Exo_2, Maven_Pro, Play } from 'next/font/google'
 import { useState } from 'react';
 import ImAWhat from '@/components/ImAWhat';
+import Mypic from '@/components/Mypic';
 
 
 
@@ -20,11 +21,11 @@ export default function Intro() {
 
   setTimeout(() => {
     setShowIm(true);
-  }, 1500); // Show "I am" for 1.5 seconds
+  }, 1000); // Show "I am" for 1 second
 
   setTimeout(() => {
     setShowOther(true);
-  }, 3500); // Hide "Hello" after 3.5 seconds
+  }, 2500); //  show "other" for 2.5 seconds
   return (
     <div className={`${font.className} bg-black flex text-white h-screen overflow-hidden`}>
       <motion.h1
@@ -53,9 +54,13 @@ export default function Intro() {
           animate={{ opacity: 1, y: 0, x: 50 }}
           exit={{ opacity: 0, y: -30, x: 0 }}
           transition={{ duration: 0.3 }}
-          ><span>I'm a</span><ImAWhat/>
+          ><span className='text-4xl'>I'm a</span><ImAWhat/>
           </motion.span>}
       </motion.h1>
+      <div className='fixed bottom-0 right-0 w-screen lg:w-200 md:w-screen'>
+        <Mypic/>
+      </div>
+      
 
     </div>
 

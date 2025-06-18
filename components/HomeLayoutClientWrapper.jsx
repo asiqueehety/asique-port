@@ -9,7 +9,7 @@ import CircularNavbar from '@/components/CircularNavbar'
 
   const exo2 = Exo_2({
     subsets: ['latin'],
-    weight: ['200'],
+    weight: ['300'],
   })
 export default function HomeLayoutClientWrapper({ children }) {
   const path = usePathname()
