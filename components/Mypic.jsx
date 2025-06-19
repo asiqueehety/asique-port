@@ -3,6 +3,8 @@ import {motion} from 'framer-motion'
 
 
 export default function Mypic() {
+
+	
   return (
     <div>
         <svg version="1.1" id="Layer_1"
@@ -12,8 +14,20 @@ export default function Mypic() {
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }}
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 8,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }}
     
 	d="
 M49.298244,500.626343 
@@ -129,8 +143,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M289.250885,500.705444 
 	C276.979095,501.000000 264.958221,501.000000 252.468658,501.000000 
@@ -164,8 +190,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }}
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }}
 	d="
 M419.228210,500.745544 
 	C415.969391,501.000000 412.938812,501.000000 409.454102,501.000000 
@@ -193,8 +231,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M161.229767,500.771851 
 	C156.310745,501.000000 151.621490,501.000000 146.466125,501.000000 
@@ -229,8 +279,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M289.468658,501.000000 
 	C289.065460,499.211517 288.732666,497.371155 289.845886,495.349457 
@@ -261,8 +323,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M145.045105,495.634827 
 	C145.303116,497.425262 145.605011,498.849335 145.953461,500.636688 
@@ -285,8 +359,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M72.240364,500.729248 
 	C65.312355,501.000000 58.624710,501.000000 51.468533,501.000000 
@@ -305,8 +391,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M376.244995,500.682739 
 	C362.645782,501.000000 349.291534,501.000000 335.468658,501.000000 
@@ -323,8 +421,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M376.468658,501.000000 
 	C375.036835,493.067200 366.353607,486.059631 359.378723,487.945679 
@@ -343,8 +453,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M419.468658,501.000000 
 	C418.678131,498.821869 416.682007,496.096680 421.257080,495.812866 
@@ -360,8 +482,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M235.673767,474.756989 
 	C238.712280,478.457214 239.179688,482.973907 241.662216,486.673767 
@@ -378,8 +512,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M234.240433,474.729553 
 	C231.992279,476.453583 230.080887,478.076904 227.952774,479.333130 
@@ -400,8 +546,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M72.468658,501.000000 
 	C71.350883,497.055023 72.721542,494.405518 76.675896,493.068573 
@@ -417,8 +575,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M335.044983,490.660950 
 	C333.297150,491.150024 331.039703,490.451233 330.479431,492.783417 
@@ -439,8 +609,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M49.250000,501.000000 
 	C48.997795,475.226044 48.990398,449.452087 49.004448,423.678131 
@@ -454,8 +636,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M50.250000,501.000000 
 	C50.018639,483.313721 50.037277,465.627441 50.115532,447.476685 
@@ -470,8 +664,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M451.250000,501.000000 
 	C450.983582,495.307892 450.967133,489.615784 450.919373,483.455994 
@@ -487,8 +693,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M452.250000,501.000000 
 	C451.980042,489.351624 451.960052,477.703217 451.929688,465.598877 
@@ -500,8 +718,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M323.001221,499.334351 
 	C328.008820,494.079285 328.796814,494.204803 330.992981,500.636475 
@@ -512,8 +742,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M161.437500,501.000000 
 	C161.372437,498.535767 162.774536,497.189728 165.287704,497.040588 
@@ -524,8 +766,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M247.416656,501.000000 
 	C248.229584,498.127960 249.898148,498.282623 251.918320,500.649261 
@@ -535,8 +789,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M303.695465,170.768829 
 	C311.352081,176.410507 320.467316,179.781555 324.199554,189.404556 
@@ -574,8 +840,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M174.780487,211.317627 
 	C174.994507,210.984619 175.045975,210.496704 175.095825,210.256516 
@@ -603,8 +881,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M372.221252,319.670319 
 	C369.593048,327.167664 364.116119,333.262695 363.968140,341.154022 
@@ -636,8 +926,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M164.772491,312.112244 
 	C164.889404,311.351379 164.768616,310.915314 164.572571,310.265594 
@@ -665,8 +967,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M263.821899,155.191956 
 	C265.751343,155.006866 267.921173,155.260986 267.742493,157.313889 
@@ -695,8 +1009,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M150.755707,414.833710 
 	C152.130157,415.051819 153.204147,415.025879 154.680786,415.027618 
@@ -730,8 +1056,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M238.639435,179.133270 
 	C240.255936,181.011017 241.583908,183.064941 242.946426,185.172302 
@@ -752,8 +1090,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.713257,385.554382 
 	C319.921967,387.640472 319.962219,389.353149 320.018799,391.493835 
@@ -775,8 +1125,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M369.809082,309.720093 
 	C368.393372,315.529205 367.519623,321.260406 365.005615,326.497589 
@@ -798,8 +1160,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M169.670166,422.090271 
 	C166.867813,419.364136 163.398804,419.554565 160.224136,418.787506 
@@ -825,8 +1199,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M371.048248,285.604065 
 	C369.397980,287.553711 368.426025,289.530792 368.187988,291.857788 
@@ -849,8 +1235,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M166.673691,319.776306 
 	C170.467194,322.822296 170.644516,327.586761 173.406631,330.752411 
@@ -869,8 +1267,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M202.859772,189.579956 
 	C202.351776,191.260712 201.426849,192.565796 199.890106,192.805908 
@@ -885,8 +1295,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M187.086975,367.532166 
 	C189.004791,366.754974 189.152496,365.314117 189.234436,363.434204 
@@ -906,8 +1328,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M382.747864,444.910522 
 	C383.510986,444.954254 383.941010,445.009857 384.689606,445.130920 
@@ -935,8 +1369,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M222.652557,186.076691 
 	C224.938019,190.638596 228.614273,188.684402 231.394775,187.897003 
@@ -954,8 +1400,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M174.688324,211.154022 
 	C175.086823,213.298813 176.917465,214.361832 178.671799,215.845520 
@@ -977,8 +1435,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M276.322632,175.049789 
 	C275.829681,172.817566 278.695129,170.800751 276.154083,168.267914 
@@ -997,8 +1467,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M450.934204,464.655640 
 	C451.019867,466.019073 450.952850,467.091583 450.847107,468.565796 
@@ -1017,8 +1499,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M162.200989,274.574524 
 	C161.651016,276.398041 161.352264,277.833405 161.041595,279.637695 
@@ -1037,8 +1531,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M339.767761,221.231689 
 	C343.469116,222.678162 347.173096,221.451752 350.680389,222.009674 
@@ -1061,8 +1567,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M339.701355,220.901947 
 	C339.823456,221.838211 339.647583,222.639954 338.446655,223.013168 
@@ -1079,8 +1597,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M361.834503,253.558868 
 	C361.118195,253.713394 360.306763,253.498291 359.192596,253.181366 
@@ -1100,8 +1630,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M357.739624,229.286469 
 	C359.057037,229.375244 360.121002,229.695374 361.521851,230.018097 
@@ -1118,8 +1660,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M162.196716,265.697906 
 	C160.862411,266.286865 159.834564,266.601501 158.485474,266.959412 
@@ -1133,8 +1687,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M71.676903,418.802765 
 	C67.922951,421.314056 63.841473,419.168365 59.334274,419.050903 
@@ -1147,8 +1713,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M166.983765,319.621033 
 	C166.538635,320.021881 166.030319,320.051880 165.140533,320.116180 
@@ -1159,8 +1737,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M391.286530,448.303589 
 	C390.685516,447.585144 390.363708,447.159241 389.995575,446.460358 
@@ -1173,8 +1763,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M72.413429,419.020355 
 	C69.901566,418.897186 67.803619,418.763580 65.398712,418.408752 
@@ -1185,8 +1787,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M128.645325,416.089294 
 	C129.120239,416.172333 129.057037,416.567627 129.019501,416.764252 
@@ -1198,8 +1812,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M370.111725,309.738464 
 	C368.474213,308.242828 368.806732,306.345490 369.835236,304.158752 
@@ -1211,8 +1837,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M109.493073,417.184570 
 	C105.347435,418.830170 100.596718,417.632996 95.466042,418.006409 
@@ -1223,8 +1861,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M321.860565,409.430389 
 	C320.333069,406.316040 321.500214,402.580658 321.043091,398.500183 
@@ -1234,8 +1884,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M382.877014,444.579224 
 	C380.521851,446.399170 378.597534,444.554474 376.258484,443.413330 
@@ -1245,8 +1907,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M344.478882,437.629211 
 	C342.633423,437.953857 340.761505,437.972961 338.424408,437.948242 
@@ -1259,8 +1933,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M150.930939,414.675659 
 	C148.271683,415.252228 145.487213,415.426666 142.410828,415.402100 
@@ -1270,8 +1956,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M157.602478,261.212524 
 	C157.977478,262.700531 158.005508,264.424866 158.098877,266.575958 
@@ -1282,8 +1980,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M370.377747,303.303406 
 	C369.785309,300.146301 371.188629,298.788727 374.564178,298.997864 
@@ -1296,8 +2006,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.956970,385.484650 
 	C318.748352,385.048615 319.029297,383.732483 318.776062,382.196808 
@@ -1310,8 +2032,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M367.828430,440.546814 
 	C365.237000,440.976013 362.435699,441.362061 359.349548,440.407074 
@@ -1321,8 +2055,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M94.586685,417.068604 
 	C95.026138,417.143768 95.023994,417.571472 95.012749,417.785004 
@@ -1335,8 +2081,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M342.886627,435.603302 
 	C341.573303,435.901245 340.064392,435.478699 338.350464,436.503235 
@@ -1348,8 +2106,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M159.103271,296.572845 
 	C160.615372,298.132233 159.612869,300.430054 159.954895,302.995117 
@@ -1359,8 +2129,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M158.039856,273.576660 
 	C159.944138,275.016388 158.928146,277.148132 158.417618,279.451111 
@@ -1370,8 +2152,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M372.327209,319.770203 
 	C372.115662,317.872742 371.556061,315.702332 372.653931,313.340637 
@@ -1381,8 +2175,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M164.582886,236.055176 
 	C164.847595,237.704651 164.759338,239.550552 164.376114,241.645477 
@@ -1392,8 +2198,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M359.814880,242.371948 
 	C360.112732,242.021423 360.458618,242.082382 360.633118,242.064423 
@@ -1405,8 +2223,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M370.050903,303.341064 
 	C371.176453,302.999847 371.871918,302.226868 372.773010,301.202454 
@@ -1418,8 +2248,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M344.888306,437.921326 
 	C344.424561,437.762482 344.343811,437.590179 344.130157,437.165222 
@@ -1430,8 +2272,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M299.459412,170.967133 
 	C299.047363,170.943069 299.053253,170.542953 299.074097,170.343964 
@@ -1442,8 +2296,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M320.902100,396.530945 
 	C319.610413,395.689178 320.109406,394.127136 320.024170,392.301239 
@@ -1453,8 +2319,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M338.963318,211.521851 
 	C337.495148,210.607452 338.015717,209.065079 338.648499,207.316147 
@@ -1464,8 +2342,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M164.507507,409.933197 
 	C164.914352,410.118225 164.914230,410.336853 164.874802,410.880432 
@@ -1476,8 +2366,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M387.907196,445.606140 
 	C387.037842,447.325562 386.172943,446.615082 385.166931,445.442444 
@@ -1487,8 +2389,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M263.719147,155.023392 
 	C263.761017,155.273026 263.511932,155.555771 262.974182,155.889877 
@@ -1498,8 +2412,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M373.224731,300.907745 
 	C373.178131,300.766968 373.359100,300.529968 373.731354,300.162750 
@@ -1509,8 +2435,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M215.274780,468.798737 
 	C211.501205,472.282776 213.595688,474.547791 216.700043,476.841980 
@@ -1558,8 +2496,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M283.301514,468.159546 
 	C282.482300,466.602448 281.965271,465.206299 281.449432,463.809723 
@@ -1603,8 +2553,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M293.743866,481.261108 
 	C296.636719,483.781952 298.995941,486.465698 293.642395,488.993591 
@@ -1619,8 +2581,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M417.698792,458.029846 
 	C418.446747,457.977173 418.886261,457.986206 419.655334,458.005890 
@@ -1650,8 +2624,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M376.173553,477.693115 
 	C372.818695,479.785156 370.082703,482.150055 365.819061,479.469879 
@@ -1680,8 +2666,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M426.054077,474.383362 
 	C427.853760,473.943481 429.527740,473.717743 428.445953,471.157166 
@@ -1698,8 +2696,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M393.696045,457.762695 
 	C393.999176,458.748230 393.999573,459.497681 394.000000,460.621735 
@@ -1713,8 +2723,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M423.635498,486.008118 
 	C423.838135,487.491089 423.679962,488.980957 423.259644,490.734528 
@@ -1725,8 +2747,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M208.725006,471.769592 
 	C209.321136,475.551819 211.835815,477.779663 213.983978,480.618652 
@@ -1757,8 +2791,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M145.334137,496.000732 
 	C143.514648,495.750854 142.845764,495.122803 143.911407,493.672607 
@@ -1784,8 +2830,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M147.373749,496.049591 
 	C147.986282,494.697418 148.951736,493.378601 149.965302,492.097900 
@@ -1796,8 +2854,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M163.249084,481.001740 
 	C163.355637,478.308075 161.037827,476.348511 161.007782,473.379822 
@@ -1811,8 +2881,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M180.702881,487.165680 
 	C181.546371,487.178375 182.093964,487.357971 182.821991,487.769592 
@@ -1823,8 +2905,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M164.003006,481.362671 
 	C164.439804,481.004028 164.885117,481.001953 165.664291,480.999329 
@@ -1835,8 +2929,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M189.211807,483.883118 
 	C188.244781,483.324799 187.661972,482.494934 188.615189,481.680298 
@@ -1847,8 +2953,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M193.333328,481.000916 
 	C193.103836,480.368317 193.164490,479.609436 193.956802,479.566986 
@@ -1859,8 +2977,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M346.014771,444.580811 
 	C345.906677,445.316132 345.878967,445.857422 345.702820,445.911072 
@@ -1884,8 +3014,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M298.254700,480.748871 
 	C296.174438,478.664642 290.920532,477.934601 294.661469,473.074646 
@@ -1895,8 +3037,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M91.999466,494.559509 
 	C89.965202,494.243286 90.151627,492.100739 89.135574,490.311096 
@@ -1923,8 +3077,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M129.235321,489.161926 
 	C128.835632,486.759460 126.430489,485.241943 126.999252,482.387268 
@@ -1938,8 +3104,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M131.045242,491.359436 
 	C131.444275,491.000549 131.889786,490.999878 132.669464,490.998810 
@@ -1951,8 +3129,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M81.994415,486.659119 
 	C81.998779,487.446747 81.998772,487.889862 81.998619,488.665253 
@@ -1998,8 +3188,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M344.256134,482.259644 
 	C346.044373,480.121765 348.389832,478.965332 351.615112,479.001099 
@@ -2012,8 +3214,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M348.349548,497.421936 
 	C347.620789,497.624939 347.355377,497.370483 347.468567,496.804016 
@@ -2024,8 +3238,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M335.041077,491.269653 
 	C335.485657,491.291656 335.971313,491.583313 336.457001,491.874969 
@@ -2036,8 +3262,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M367.527679,484.344940 
 	C367.239960,486.001678 366.381897,486.163757 365.535461,485.241425 
@@ -2048,8 +3286,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M215.267059,469.213898 
 	C217.329391,462.757263 225.470642,461.909576 230.830780,467.685120 
@@ -2060,8 +3310,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M220.246765,480.769867 
 	C217.981918,480.839813 217.035385,479.703369 217.007980,477.361694 
@@ -2071,8 +3333,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M81.266800,490.271667 
 	C81.304901,489.882935 81.558540,489.685394 81.879623,489.209717 
@@ -2083,8 +3357,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M51.379112,440.667053 
 	C51.061302,442.726349 51.008633,444.435699 50.911087,446.570679 
@@ -2100,8 +3386,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M51.083435,452.453400 
 	C54.656506,451.235809 58.171173,450.533478 60.943810,447.853851 
@@ -2118,8 +3416,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M240.445740,192.533081 
 	C240.100861,189.259247 244.506454,184.662613 246.629089,185.718445 
@@ -2143,8 +3453,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M259.749420,195.098907 
 	C260.066071,193.921768 260.506836,193.306564 261.696381,193.055084 
@@ -2171,8 +3493,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M298.331299,191.290375 
 	C296.159698,192.319733 294.218567,193.413696 291.413757,192.983292 
@@ -2193,8 +3527,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M326.047882,204.029602 
 	C324.133270,204.232193 322.467346,204.190033 320.382599,204.100891 
@@ -2211,8 +3557,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M277.140625,187.762848 
 	C276.659485,189.441223 276.034698,190.352005 275.174774,188.510315 
@@ -2225,8 +3583,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M317.946594,190.665070 
 	C317.739075,191.479065 317.476166,191.984650 317.098511,192.751099 
@@ -2238,8 +3608,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M273.046265,175.334656 
 	C273.750153,174.998947 274.495453,174.996689 275.613037,174.992249 
@@ -2250,8 +3632,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M281.092743,190.555389 
 	C279.664215,190.948013 279.040894,190.147629 278.985535,188.415298 
@@ -2261,8 +3655,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M321.950531,191.743347 
 	C321.436096,191.826141 320.893005,191.625214 320.180847,191.181366 
@@ -2272,8 +3678,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.794174,197.114594 
 	C220.239899,197.181000 221.748795,199.529922 224.605652,199.037354 
@@ -2308,8 +3726,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M178.805145,218.343262 
 	C178.900070,217.516357 178.920731,217.083679 178.952148,216.326385 
@@ -2326,8 +3756,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M201.857101,214.935181 
 	C202.343445,218.389069 205.326233,217.939590 207.646194,218.956482 
@@ -2343,8 +3785,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M218.810181,201.792389 
 	C219.020813,201.985840 219.085739,202.448990 219.106689,202.681885 
@@ -2359,8 +3813,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M196.679718,215.828094 
 	C197.028473,216.373993 197.227600,216.615952 197.699341,216.915405 
@@ -2374,8 +3840,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M192.532440,208.392670 
 	C193.653824,207.019836 194.625320,207.015930 195.372910,208.328857 
@@ -2386,8 +3864,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M194.438919,205.507919 
 	C193.539856,204.925812 192.521851,204.386475 192.925461,203.626480 
@@ -2398,8 +3888,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M208.004745,212.004395 
 	C208.408112,211.102585 206.512390,209.629425 208.498184,209.238052 
@@ -2412,8 +3914,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M196.921478,215.734741 
 	C196.059158,215.883743 195.227020,215.686462 194.173553,215.249023 
@@ -2424,8 +3938,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M208.772217,212.335449 
 	C209.167877,211.998871 209.343628,211.996185 209.783310,211.983078 
@@ -2437,8 +3963,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M206.572235,207.046783 
 	C206.194351,207.750549 205.815338,207.712891 205.484848,207.236908 
@@ -2449,8 +3987,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M213.997742,203.002213 
 	C213.598190,202.889053 213.200897,202.773712 212.803589,202.658356 
@@ -2461,8 +4011,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M349.176758,345.762573 
 	C341.384766,351.888794 338.830383,363.355438 327.588379,365.154510 
@@ -2485,8 +4047,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.770233,375.929077 
 	C319.363068,376.962494 319.048309,377.618408 318.684967,378.558289 
@@ -2504,8 +4078,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M360.927063,329.672791 
 	C360.179779,332.183929 359.379333,334.348480 358.344116,336.769531 
@@ -2521,8 +4107,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M361.215515,330.015076 
 	C359.585449,329.749603 358.873535,329.057953 359.884460,327.736206 
@@ -2537,8 +4135,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M349.179779,346.175110 
 	C349.463257,344.760590 349.999756,343.550110 350.756287,342.147095 
@@ -2549,8 +4159,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.197815,371.656494 
 	C318.167023,372.181183 317.361267,372.487762 316.264954,372.943939 
@@ -2565,8 +4187,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M355.222290,343.758728 
 	C353.451050,344.062561 352.907349,342.422394 351.302246,342.019348 
@@ -2577,8 +4211,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M354.584320,335.006317 
 	C355.846191,335.597076 356.684509,336.187225 357.816101,336.901703 
@@ -2590,8 +4236,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M187.218048,354.232178 
 	C184.827988,352.917297 184.308640,350.881714 183.887299,348.407837 
@@ -2635,8 +4293,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M176.471222,271.533936 
 	C172.091400,272.129486 169.843109,273.824677 171.609741,278.281738 
@@ -2672,8 +4342,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M170.213135,260.783722 
 	C169.994461,260.997559 169.973236,261.477966 169.963470,261.717773 
@@ -2694,8 +4376,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M182.656860,333.974609 
 	C184.528336,334.758270 186.135147,335.558929 187.850754,336.413757 
@@ -2708,8 +4402,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M162.224518,290.791382 
 	C160.181885,287.671661 160.999786,283.973969 160.768158,280.233643 
@@ -2719,8 +4425,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M174.131653,320.257812 
 	C175.001083,320.240997 176.668640,319.460541 176.229324,321.790039 
@@ -2730,8 +4448,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M273.238525,172.772156 
 	C272.121735,172.494965 271.244690,171.993713 270.187500,171.250519 
@@ -2741,8 +4471,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M129.005478,481.598938 
 	C128.560776,482.000000 128.114243,482.001221 127.332825,482.004272 
@@ -2789,8 +4531,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M154.747559,420.696594 
 	C152.932938,426.446045 147.624908,429.288544 143.789200,433.100128 
@@ -2813,8 +4567,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M132.604797,420.006165 
 	C131.190857,424.133209 126.900978,425.054596 123.470222,426.806763 
@@ -2835,8 +4601,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M84.738419,422.731873 
 	C84.911446,425.724304 85.895805,429.030090 81.263481,429.734802 
@@ -2850,8 +4628,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M143.709473,418.718506 
 	C141.692383,422.261597 138.539078,420.914734 135.277573,420.259399 
@@ -2861,8 +4651,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M113.322998,417.329834 
 	C118.020546,417.036438 123.036377,417.003845 128.517090,416.966064 
@@ -2872,8 +4674,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M88.338440,418.484161 
 	C89.126282,418.244415 90.145988,418.192078 91.546799,418.182373 
@@ -2883,8 +4697,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.741119,199.308105 
 	C231.867798,196.522217 234.729477,194.029343 237.800934,191.276962 
@@ -2899,8 +4725,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.696777,379.301758 
 	C316.642426,378.961517 317.308838,378.928406 318.305847,378.868774 
@@ -2919,8 +4757,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M312.740173,431.260956 
 	C313.481598,430.856964 313.936768,430.809143 314.720520,430.661865 
@@ -2933,8 +4783,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M327.023804,438.328125 
 	C326.384857,436.587006 325.727661,435.184113 325.015747,433.451172 
@@ -2948,8 +4810,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M331.676941,438.199890 
 	C332.025543,437.445587 332.063721,436.916840 332.168945,435.992432 
@@ -2965,8 +4839,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M363.089966,293.661835 
 	C363.134735,294.472015 363.124359,294.922943 363.104370,295.712067 
@@ -2996,8 +4882,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M346.768860,285.331604 
 	C351.015137,285.103790 354.389801,285.853180 355.503113,290.671570 
@@ -3016,8 +4914,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M363.378784,293.869446 
 	C360.276337,290.400543 355.707245,288.001251 355.020081,282.414734 
@@ -3030,8 +4940,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M364.252930,309.744507 
 	C363.304901,305.599426 362.644714,301.213867 361.967163,296.418213 
@@ -3042,8 +4964,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M362.222595,316.993958 
 	C360.776337,315.595673 360.471741,314.271759 362.611511,313.047943 
@@ -3054,8 +4988,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M373.480774,295.467926 
 	C373.520813,295.446869 373.440765,295.488983 373.480774,295.467926 
@@ -3064,8 +5010,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M312.721924,430.680481 
 	C313.554962,433.300446 314.301300,435.666748 314.012695,438.591614 
@@ -3096,8 +5054,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M167.769409,454.273529 
 	C170.288742,452.556030 172.578186,451.112030 174.933502,449.334045 
@@ -3134,8 +5104,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M210.383881,419.328125 
 	C206.958649,418.811737 203.896530,418.449615 200.420700,418.110168 
@@ -3157,8 +5139,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M168.826141,413.380737 
 	C169.725769,413.143616 170.483368,413.228302 171.596710,413.452667 
@@ -3175,8 +5169,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M193.278320,429.358826 
 	C193.032990,428.994751 192.998474,428.503296 192.974640,428.258118 
@@ -3193,8 +5199,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M173.960739,422.652679 
 	C173.293015,422.749084 172.366028,422.607910 171.204132,422.198151 
@@ -3204,8 +5222,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M192.658203,427.028839 
 	C192.978973,427.071838 192.976685,427.542603 192.963745,427.777771 
@@ -3216,8 +5246,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M361.384888,279.621094 
 	C360.725250,279.947815 360.247711,279.953644 359.411987,279.960724 
@@ -3250,8 +5292,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M356.413574,272.160828 
 	C354.575714,270.726379 353.034271,269.549530 351.291077,268.123749 
@@ -3269,8 +5323,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M356.769836,278.666901 
 	C357.548035,279.209106 358.041718,279.475891 358.794617,279.852356 
@@ -3285,8 +5351,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M356.228577,272.221558 
 	C359.093781,273.216736 361.143127,272.258667 362.682373,269.168365 
@@ -3297,8 +5375,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M353.143494,252.881683 
 	C352.236206,251.912689 351.439484,251.213776 350.444794,250.337265 
@@ -3315,8 +5405,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M356.048706,256.844421 
 	C356.538727,256.341278 357.024933,256.217560 357.759460,256.047485 
@@ -3329,8 +5431,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M362.791382,266.849213 
 	C360.922028,266.638733 359.600128,265.548035 359.063354,263.287140 
@@ -3340,8 +5454,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M193.671906,345.250946 
 	C194.269684,342.961792 194.711426,340.905365 195.167145,338.455811 
@@ -3361,8 +5487,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M191.241913,353.903992 
 	C191.604294,356.766846 190.580856,359.115692 189.190201,361.709290 
@@ -3375,8 +5513,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M192.815430,364.362610 
 	C196.241699,354.013550 197.958817,343.708313 198.764084,333.237396 
@@ -3402,8 +5552,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M181.698059,393.210266 
 	C182.136322,393.000916 182.312485,392.999603 182.752869,393.001892 
@@ -3417,8 +5579,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M184.707947,385.148560 
 	C184.957764,386.137207 185.116196,387.356720 183.373825,387.939087 
@@ -3428,8 +5602,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M186.607880,382.985962 
 	C186.906647,383.842407 186.658234,384.615295 185.321899,384.943359 
@@ -3439,8 +5625,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M363.211609,459.304077 
 	C357.649841,456.898804 353.544434,453.590881 352.044067,447.360107 
@@ -3459,8 +5657,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M380.288086,466.867065 
 	C379.701843,463.670990 376.743988,460.422546 380.389648,456.938782 
@@ -3478,8 +5688,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M364.967041,446.594055 
 	C362.013000,446.717621 358.828125,447.832886 356.028717,445.709076 
@@ -3495,8 +5717,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M396.144775,451.781433 
 	C393.905487,452.235260 392.178833,451.822723 391.271576,449.260498 
@@ -3508,8 +5742,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M367.661194,446.978760 
 	C367.993805,447.430542 367.996124,447.879730 367.998016,448.665680 
@@ -3520,8 +5766,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.685486,198.978485 
 	C228.687531,200.397873 228.368942,201.780655 227.985458,203.516052 
@@ -3534,8 +5792,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M177.363907,240.963684 
 	C177.001663,240.569702 176.979050,240.128006 176.951050,239.354736 
@@ -3559,8 +5829,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M165.736389,246.264023 
 	C168.477982,246.505798 169.010376,248.765060 167.981689,250.103912 
@@ -3573,8 +5855,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M179.152084,224.856995 
 	C179.047165,225.551208 179.036896,225.965500 179.013962,226.695404 
@@ -3591,8 +5885,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M168.861908,235.890991 
 	C170.405579,236.032547 171.697021,236.859802 173.555603,235.845688 
@@ -3606,8 +5912,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M169.762665,231.393280 
 	C170.904175,230.738510 172.092712,230.383942 173.651367,230.036285 
@@ -3618,8 +5936,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M168.530060,235.984650 
 	C168.882462,236.718094 168.921524,237.524445 168.923126,238.735718 
@@ -3629,8 +5959,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M432.827576,462.675476 
 	C427.256561,465.081329 421.868561,463.336304 419.998138,458.398071 
@@ -3640,8 +5982,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M409.938232,454.639313 
 	C409.004974,456.797485 408.335144,459.215790 405.548492,456.669373 
@@ -3653,8 +6007,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M402.998352,451.729492 
 	C402.730133,454.070129 401.202972,453.980682 399.368347,453.998962 
@@ -3667,8 +6033,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M417.825195,457.661774 
 	C417.890869,458.879028 418.231201,460.357269 417.094666,460.415375 
@@ -3679,8 +6057,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M328.748566,216.170914 
 	C332.980377,216.840714 333.837006,221.563217 337.833405,222.914642 
@@ -3694,8 +6084,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M326.752380,223.303024 
 	C328.512421,223.095184 330.064392,222.661621 331.740173,223.769958 
@@ -3709,8 +6111,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M331.832153,231.508957 
 	C332.434967,230.760513 332.753387,230.349716 333.117310,229.686157 
@@ -3727,8 +6141,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M344.118683,228.922409 
 	C345.506073,223.835663 349.375763,226.764023 352.564178,226.035751 
@@ -3739,8 +6165,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M343.553467,228.512939 
 	C346.036255,228.625656 348.136139,228.764526 350.690765,228.908173 
@@ -3754,8 +6192,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M353.362305,231.149384 
 	C352.517456,230.472061 351.956726,229.951447 351.270752,229.171906 
@@ -3768,8 +6218,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M354.337738,231.269028 
 	C354.000793,229.823975 354.755493,229.175064 355.752625,228.332504 
@@ -3781,8 +6243,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M338.833130,228.597839 
 	C338.674622,229.529282 338.201538,229.965775 337.171814,229.264252 
@@ -3791,8 +6265,20 @@ z"/>
 <motion.path  opacity="1.000000"   stroke="#F1EFEC" fill="none"
   strokeWidth="0.3"
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M334.712341,229.021194 
 	C334.698212,229.168625 334.550049,229.170563 334.481140,229.176147 
@@ -3803,8 +6289,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M317.749268,204.698593 
 	C319.186646,205.614120 318.870789,207.453644 320.727234,207.899353 
@@ -3821,8 +6319,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M310.772186,221.331848 
 	C313.196472,218.253265 315.962738,218.385178 319.126678,218.857910 
@@ -3839,8 +6349,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.679138,197.756927 
 	C323.237793,199.747284 319.953400,201.584747 320.010223,203.719849 
@@ -3853,8 +6375,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.731262,204.336731 
 	C316.357330,203.377899 316.950104,203.000885 317.912750,203.945862 
@@ -3866,8 +6400,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M350.163574,247.594772 
 	C350.168365,248.343674 350.135315,248.864716 350.174561,249.772705 
@@ -3882,8 +6428,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M335.262512,244.593109 
 	C333.227020,244.882263 331.527344,244.973785 329.401489,245.062958 
@@ -3898,8 +6456,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M345.439453,240.993042 
 	C345.082153,240.931610 345.002594,240.487885 344.974060,240.264297 
@@ -3914,8 +6484,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M335.374146,244.857910 
 	C336.665436,241.506897 339.751343,243.612518 342.586243,242.973999 
@@ -3926,8 +6508,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M350.319427,242.094482 
 	C350.256073,238.545700 351.304321,236.210114 355.713928,237.873398 
@@ -3940,8 +6534,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M359.794067,242.010193 
 	C360.068970,243.400925 360.025238,244.780411 359.921448,246.571228 
@@ -3953,8 +6559,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M358.121948,241.608368 
 	C356.883057,242.776642 357.079498,244.140930 356.989197,245.806976 
@@ -3967,8 +6585,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M354.886841,241.092117 
 	C355.111969,242.066101 355.040649,243.145813 354.963684,244.632263 
@@ -3979,8 +6609,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M358.224487,234.800995 
 	C356.452911,234.064102 354.760345,233.930145 352.660065,233.964493 
@@ -3994,8 +6636,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M272.692566,439.474335 
 	C275.114532,439.751953 277.137360,439.854187 279.595520,439.930420 
@@ -4019,8 +6673,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M249.066055,437.884766 
 	C249.385345,440.375275 251.268280,439.993103 252.855270,439.982483 
@@ -4040,8 +6706,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M235.047333,441.365967 
 	C243.910233,443.021820 252.955933,443.840210 262.529541,444.004272 
@@ -4056,8 +6734,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M273.665894,444.754333 
 	C274.317047,445.103394 274.571411,445.287842 274.900391,445.741821 
@@ -4070,8 +6760,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.265564,446.241150 
 	C314.130676,440.807709 309.391449,443.038971 306.295898,441.339386 
@@ -4088,8 +6790,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M363.007629,459.379822 
 	C368.584442,460.095032 373.051392,463.283875 377.702759,466.845520 
@@ -4100,8 +6814,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M355.332520,479.995636 
 	C354.144745,479.831238 353.291931,479.662476 352.219543,479.246857 
@@ -4116,8 +6842,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M381.643341,470.045532 
 	C381.226959,472.688995 378.598419,472.412933 376.142303,474.234100 
@@ -4127,8 +6865,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M167.730957,454.784637 
 	C168.483658,455.912537 169.487045,457.203827 170.140793,456.738708 
@@ -4156,8 +6906,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M205.694992,469.160583 
 	C206.826630,469.563690 206.985428,470.413391 206.998444,471.661804 
@@ -4170,8 +6932,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M167.999435,454.751831 
 	C164.245743,455.873657 163.477264,457.620728 165.872894,460.903778 
@@ -4210,8 +6984,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M140.331635,474.147766 
 	C146.664246,471.587311 149.557236,472.855438 151.992615,479.626221 
@@ -4221,8 +7007,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M149.243317,485.037018 
 	C150.392059,483.025360 151.904068,482.337158 153.392670,483.790649 
@@ -4233,8 +7031,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M347.202393,464.952393 
 	C347.796112,466.098602 348.346069,467.178162 346.854614,467.477356 
@@ -4245,8 +7055,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M115.154495,456.653931 
 	C114.751785,458.471283 112.324715,458.620667 112.759811,460.284943 
@@ -4279,8 +7101,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M82.301605,486.843079 
 	C78.304398,484.365417 81.083107,479.420868 78.252571,476.398804 
@@ -4295,8 +7129,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M117.119186,461.212769 
 	C117.307709,461.124359 117.561607,461.315857 117.880478,461.787598 
@@ -4306,8 +7152,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M115.339127,456.991150 
 	C113.445366,453.417755 111.238815,451.675995 106.861038,452.372559 
@@ -4340,8 +7198,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M73.698807,428.762695 
 	C75.063416,433.215271 72.015213,437.268097 73.253616,441.748688 
@@ -4356,8 +7226,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M72.628601,472.015076 
 	C72.999161,472.750610 72.999847,473.500000 73.002060,474.624084 
@@ -4368,8 +7250,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M232.738739,205.327072 
 	C235.614838,201.090408 236.058456,195.933640 239.945206,192.331177 
@@ -4390,8 +7284,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M248.732758,197.296173 
 	C248.901367,196.230118 248.941696,195.487656 248.979065,194.372772 
@@ -4408,8 +7314,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M250.860672,193.716232 
 	C250.547791,194.000412 250.098984,194.005478 249.313156,194.005463 
@@ -4420,8 +7338,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M254.908905,195.712555 
 	C254.124481,195.936539 253.423080,195.648453 252.971558,194.547287 
@@ -4431,8 +7361,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M248.689789,203.739014 
 	C255.991898,202.015045 262.609161,198.787033 270.394104,198.468719 
@@ -4470,8 +7412,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M282.064514,206.422943 
 	C286.790070,205.745193 290.936249,203.623596 295.508881,204.867798 
@@ -4495,8 +7449,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M313.288849,197.968170 
 	C310.350861,199.047653 307.879425,199.144211 305.618927,197.150070 
@@ -4512,8 +7478,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M280.901947,197.205887 
 	C278.444244,200.155731 275.150452,200.514618 271.179443,198.591599 
@@ -4525,8 +7503,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M287.981812,189.982742 
 	C289.440308,190.130768 290.585083,190.703308 290.974396,192.635895 
@@ -4538,8 +7528,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M276.805115,192.043396 
 	C277.859711,192.219849 278.618256,192.430191 279.376801,192.640533 
@@ -4552,8 +7554,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M300.808533,191.813629 
 	C300.284271,192.696075 299.546265,193.322205 298.535950,194.039856 
@@ -4564,8 +7578,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M287.695801,190.014923 
 	C287.989746,190.431168 287.993683,190.893188 287.998199,191.702591 
@@ -4576,8 +7602,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M312.952148,198.259720 
 	C315.061737,196.997803 316.842285,195.321716 319.618103,195.045227 
@@ -4589,8 +7627,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M232.602570,204.965958 
 	C232.956589,205.442795 232.967392,205.887405 233.002594,206.664688 
@@ -4615,8 +7665,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M209.629486,218.956940 
 	C211.989441,221.059143 211.598190,223.984726 212.742737,226.741364 
@@ -4636,8 +7698,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M216.658356,212.012405 
 	C217.176498,214.359116 215.932999,215.177277 213.380981,214.993851 
@@ -4647,8 +7721,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M218.257645,207.995789 
 	C216.709686,206.227951 217.558990,204.823517 218.960968,203.200562 
@@ -4661,8 +7747,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M219.355850,207.939209 
 	C219.052368,206.869995 219.453461,205.953461 220.675629,205.178970 
@@ -4672,8 +7770,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M218.978607,201.673630 
 	C218.089294,201.885300 217.310196,201.590256 217.141754,200.181152 
@@ -4683,8 +7793,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M221.005356,204.006256 
 	C221.297653,203.517136 221.584412,203.021759 221.871185,202.526398 
@@ -4696,8 +7818,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M208.741409,211.997467 
 	C209.028397,212.451675 209.064636,212.901779 209.140900,213.689087 
@@ -4708,8 +7842,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M201.919601,214.882858 
 	C201.740723,214.919449 201.459579,214.709244 201.082458,214.252045 
@@ -4719,8 +7865,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M193.765808,222.681198 
 	C194.146759,225.794693 189.655899,224.247574 190.005432,227.617294 
@@ -4733,8 +7891,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M194.185028,222.755463 
 	C192.895599,222.694412 191.790009,222.389420 190.340683,222.044098 
@@ -4747,8 +7917,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M182.646606,222.941925 
 	C183.285278,223.393692 183.599106,223.869690 183.923065,224.637817 
@@ -4760,8 +7942,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M185.773895,218.724091 
 	C186.331635,215.734055 187.661072,217.594025 189.175522,218.218918 
@@ -4771,8 +7965,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M197.388245,220.035492 
 	C196.149109,219.530594 195.281082,219.018280 194.213364,218.272156 
@@ -4784,8 +7990,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.281372,368.106598 
 	C318.436829,368.513031 317.957733,369.077820 317.248901,369.801788 
@@ -4828,8 +8046,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M331.384918,355.033020 
 	C332.222626,350.274811 336.803467,348.436096 339.856415,345.445587 
@@ -4854,8 +8084,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M351.378174,337.995911 
 	C350.378052,330.824127 353.833649,324.507019 355.234375,317.760010 
@@ -4885,8 +8127,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M319.085144,368.167236 
 	C319.207092,367.791290 319.464050,367.590576 319.830139,367.146759 
@@ -4897,8 +8151,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M305.741791,376.738953 
 	C306.004669,378.113251 305.999237,379.163361 305.989563,380.607300 
@@ -4919,8 +8185,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M293.116028,392.367065 
 	C298.124847,389.520569 299.282288,382.578369 305.633911,381.043152 
@@ -4939,8 +8217,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.586304,378.994568 
 	C315.049622,383.661804 314.220337,388.350952 313.171570,392.990479 
@@ -4955,8 +8245,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.755615,370.738739 
 	C315.966766,371.472382 315.975586,371.934601 315.979370,372.745178 
@@ -4973,8 +8275,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M310.608398,381.010803 
 	C310.431061,382.471802 309.855286,383.928955 309.137939,385.693481 
@@ -4988,8 +8302,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M299.642395,368.871399 
 	C303.408081,368.327667 305.274109,370.963562 307.832458,372.839172 
@@ -5003,8 +8329,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M355.355164,333.832703 
 	C355.785706,331.786102 354.123627,329.096069 356.632751,327.049500 
@@ -5014,8 +8352,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M357.317871,324.954895 
 	C357.097168,324.102570 357.382507,323.341095 358.703979,323.058136 
@@ -5025,8 +8375,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M316.091125,370.794495 
 	C312.195984,369.134674 308.021973,367.979767 305.014526,364.380005 
@@ -5038,8 +8400,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M200.161194,313.607605 
 	C199.301971,319.317596 198.533310,324.639679 197.802734,330.296814 
@@ -5059,8 +8433,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M181.228516,276.443604 
 	C180.346283,275.691559 179.798157,275.101166 179.036652,274.296570 
@@ -5093,8 +8479,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M185.861237,260.910950 
 	C186.037918,263.356964 186.004318,265.234009 183.160095,266.100861 
@@ -5109,8 +8507,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M175.357651,303.021545 
 	C173.986557,298.867828 170.620468,294.519531 176.617249,291.071167 
@@ -5122,8 +8532,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M178.996552,304.008911 
 	C179.073715,302.599762 178.617828,301.525269 177.416016,300.602112 
@@ -5139,8 +8561,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M196.300110,331.972443 
 	C196.952164,333.914886 196.021591,335.666779 195.403473,337.790100 
@@ -5150,8 +8584,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M180.991394,276.587006 
 	C181.378082,276.200684 181.861771,276.119476 182.702988,275.951050 
@@ -5164,8 +8610,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M179.811005,297.773621 
 	C179.077606,299.002289 178.468918,298.730499 178.039307,297.268005 
@@ -5175,8 +8633,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M177.249939,273.085999 
 	C177.595200,272.852081 177.960419,272.917664 178.602814,272.999329 
@@ -5187,8 +8657,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M176.158295,270.199890 
 	C176.515533,270.321625 176.849564,270.770325 177.187943,271.507019 
@@ -5199,8 +8681,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M193.632767,345.221375 
 	C193.766266,345.386871 193.704605,345.755585 193.432770,346.322632 
@@ -5210,8 +8704,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M179.101654,304.214081 
 	C179.295227,304.121094 179.553345,304.313721 179.879059,304.789490 
@@ -5221,8 +8727,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M190.039780,229.392975 
 	C193.260849,228.312408 196.484299,227.703583 199.643463,226.855377 
@@ -5241,8 +8759,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M172.302383,255.856232 
 	C167.554398,250.492874 169.221695,245.481430 176.682938,243.028915 
@@ -5252,8 +8782,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M186.107285,260.938049 
 	C184.248489,261.243622 182.254517,260.290405 180.934158,262.644958 
@@ -5267,8 +8809,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M182.088974,250.372330 
 	C183.308350,249.665115 184.483932,249.268204 186.040466,248.877411 
@@ -5280,8 +8834,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M170.342484,260.989594 
 	C170.032166,259.857178 169.882645,258.631042 171.645203,258.059845 
@@ -5291,8 +8857,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M175.000305,449.000000 
 	C174.514542,448.708313 174.028488,448.416656 173.542419,448.124969 
@@ -5304,8 +8882,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.697601,203.951111 
 	C228.854584,204.880219 228.908890,205.936966 227.720963,206.133820 
@@ -5317,8 +8907,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M230.477814,202.463837 
 	C230.518402,202.442474 230.437210,202.485214 230.477814,202.463837 
@@ -5327,8 +8929,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M309.654602,419.862122 
 	C311.171234,420.646973 310.814941,422.536438 312.666229,422.946442 
@@ -5343,8 +8957,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M327.982971,439.534058 
 	C322.375519,441.392853 316.602814,441.012177 310.387299,440.848022 
@@ -5356,8 +8982,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M331.131409,439.000610 
 	C330.737915,439.152405 330.565979,439.145325 330.135864,439.109985 
@@ -5368,8 +9006,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M282.409851,274.045654 
 	C280.933685,273.992615 279.868469,273.998047 278.403778,274.005432 
@@ -5389,8 +9039,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M287.383881,268.015625 
 	C286.248260,267.967163 285.502289,267.973663 284.383301,267.976654 
@@ -5412,8 +9074,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M259.704346,258.740723 
 	C260.374268,262.785492 261.605286,265.250488 265.953156,262.685608 
@@ -5434,8 +9108,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M297.751404,267.359802 
 	C298.287201,266.899872 298.543854,266.714600 298.872253,266.254211 
@@ -5456,8 +9142,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M346.714294,274.782196 
 	C347.539795,279.048950 352.715210,277.947083 353.962524,281.631470 
@@ -5473,8 +9171,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M282.179932,274.308441 
 	C283.832550,272.256409 286.108521,273.285919 288.591156,272.990875 
@@ -5490,8 +9200,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M337.222534,271.700012 
 	C334.155975,273.157806 331.116913,269.516266 328.175568,272.683838 
@@ -5506,8 +9228,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M303.165131,277.253357 
 	C303.132996,274.949707 300.552307,275.258270 300.060364,273.364655 
@@ -5521,8 +9255,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M297.605377,267.062500 
 	C297.988983,267.761719 297.996887,268.506836 298.006409,269.624756 
@@ -5533,8 +9279,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M346.823547,284.696808 
 	C344.600708,284.567291 341.508728,286.259064 340.056152,282.380310 
@@ -5544,8 +9302,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M309.997437,278.259399 
 	C309.999023,277.837799 310.000305,277.664276 310.004700,277.230103 
@@ -5558,8 +9328,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M291.748047,273.999634 
 	C291.726776,274.100464 291.459320,274.199677 291.100647,274.147461 
@@ -5569,8 +9351,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M281.235596,424.678528 
 	C280.374146,425.720490 279.738525,426.445862 279.037231,427.453552 
@@ -5591,8 +9385,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M212.734161,409.778198 
 	C213.128464,411.224670 213.537186,412.542572 214.787277,412.642426 
@@ -5619,8 +9425,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M248.988190,437.285522 
 	C248.360168,437.705841 247.577423,437.813751 246.398193,437.933960 
@@ -5634,8 +9452,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M305.946594,440.357544 
 	C297.619537,441.172028 289.125305,441.276062 280.335327,440.183411 
@@ -5645,8 +9475,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M272.936066,439.319000 
 	C267.181946,440.559174 261.455353,438.762085 255.325470,438.197968 
@@ -5656,8 +9498,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M212.385269,419.177124 
 	C212.722870,419.174377 212.884399,419.570068 212.944412,419.775085 
@@ -5668,8 +9522,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M215.263977,420.378265 
 	C215.652344,420.235748 216.272705,420.311462 217.134827,420.601929 
@@ -5679,8 +9545,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M188.263336,448.724731 
 	C186.765228,448.840546 185.623734,448.938538 184.512695,448.797089 
@@ -5693,8 +9571,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M197.080109,433.358215 
 	C199.398254,433.409485 201.965164,433.314392 203.927307,435.640442 
@@ -5704,8 +9594,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M177.756409,414.630371 
 	C175.806366,417.070465 174.007278,415.639709 172.083618,413.872803 
@@ -5715,8 +9617,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M187.657227,416.029785 
 	C186.677094,417.186859 185.399338,417.385529 184.055237,415.748138 
@@ -5726,8 +9640,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M317.875854,252.695694 
 	C317.111633,255.706879 314.902527,258.209381 316.954407,261.651581 
@@ -5754,8 +9680,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M355.635071,257.953552 
 	C356.279419,258.485779 356.547089,258.989532 356.869080,259.774048 
@@ -5772,8 +9710,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M331.077759,239.654327 
 	C330.986237,241.744690 328.744873,242.466660 328.994446,244.700134 
@@ -5794,8 +9744,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.261292,242.727676 
 	C315.444244,248.446289 317.922211,249.499878 322.403503,246.516846 
@@ -5810,8 +9772,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M337.071136,272.339935 
 	C336.681274,270.938721 336.368988,269.869202 335.995300,268.473633 
@@ -5827,8 +9801,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M323.258667,268.772766 
 	C323.019501,268.947449 323.006348,269.442902 323.006409,269.690063 
@@ -5845,8 +9831,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M324.000671,265.554504 
 	C323.554443,265.960266 323.107422,265.967072 322.325806,265.950500 
@@ -5858,8 +9856,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M320.644653,261.055664 
 	C321.334442,261.817017 321.767181,262.608429 321.077332,263.721924 
@@ -5871,8 +9881,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M323.380371,268.955719 
 	C323.525299,268.371674 324.031097,267.795929 324.810486,267.104736 
@@ -5883,8 +9905,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M326.105438,248.263657 
 	C326.075562,246.882690 325.868683,245.550156 327.833435,245.131470 
@@ -5895,8 +9929,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M354.072754,254.271027 
 	C355.064178,254.050598 355.907501,254.419846 356.148438,255.932755 
@@ -5906,8 +9952,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M353.114929,252.902359 
 	C353.299805,252.893234 353.566620,253.174896 353.944580,253.724854 
@@ -5917,8 +9975,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M195.006165,391.385681 
 	C194.168777,383.538910 194.659271,376.589630 198.754974,369.687164 
@@ -5950,8 +10020,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M218.370483,330.451050 
 	C214.550186,329.929169 211.855789,328.742523 212.270126,323.974640 
@@ -5970,8 +10052,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M194.738251,391.136230 
 	C197.614258,394.107727 200.176056,397.247406 202.840973,400.296997 
@@ -5992,8 +10086,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M179.005325,227.000458 
 	C180.169189,227.173859 181.363434,227.328156 181.499847,228.836792 
@@ -6005,8 +10111,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M175.337006,228.958069 
 	C175.099976,228.111755 175.368820,227.346970 176.692230,227.058777 
@@ -6016,8 +10134,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M326.611938,223.020721 
 	C327.212677,224.786850 326.399689,226.145874 325.158722,227.706024 
@@ -6031,8 +10161,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M315.124695,224.359421 
 	C316.799805,221.113464 319.924316,223.042725 322.617859,221.999176 
@@ -6047,8 +10189,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M320.730042,227.671646 
 	C322.044464,227.974655 323.119049,227.993240 324.596680,228.011658 
@@ -6084,8 +10238,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M327.167480,233.905670 
 	C325.814819,233.140900 326.015228,231.951370 326.069031,230.457825 
@@ -6098,8 +10264,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M351.473816,230.995300 
 	C352.028320,231.735397 352.129486,232.472412 352.260132,233.581055 
@@ -6112,8 +10290,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M338.071991,233.832825 
 	C339.498077,236.385025 341.627899,237.069214 344.575195,237.016510 
@@ -6128,8 +10318,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M287.359833,211.909698 
 	C286.284882,211.758148 285.559967,211.712784 284.476807,211.615936 
@@ -6149,8 +10351,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M306.713928,218.881683 
 	C308.850739,219.098923 308.880676,221.336227 310.699707,221.964935 
@@ -6164,8 +10378,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M330.045349,237.260162 
 	C331.381561,237.112305 331.978851,237.929001 332.070251,239.546509 
@@ -6176,8 +10402,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M274.002045,444.650421 
 	C273.254791,444.988586 272.495514,444.991150 271.356354,444.983673 
@@ -6188,8 +10426,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M239.771515,208.043854 
 	C238.551636,212.601410 233.145172,214.346695 231.934341,219.565643 
@@ -6217,8 +10467,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M249.116745,203.394882 
 	C248.394958,205.251266 246.929443,204.967270 245.436646,205.371979 
@@ -6232,8 +10494,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M235.911926,207.729675 
 	C235.475891,209.591766 233.838333,209.864365 232.272186,210.784470 
@@ -6245,8 +10519,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M244.547577,204.028290 
 	C244.944092,204.256973 244.974457,204.489182 245.053711,205.072495 
@@ -6257,8 +10543,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M244.666382,198.100891 
 	C245.002090,198.790634 245.015793,199.537003 245.052734,200.657196 
@@ -6269,8 +10567,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M264.247681,240.727966 
 	C263.996002,241.191483 263.994476,241.359741 263.988831,241.780350 
@@ -6293,8 +10603,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M274.015167,213.548233 
 	C268.194824,215.387054 263.654755,214.630096 262.706390,207.277206 
@@ -6318,8 +10640,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M243.773956,239.260757 
 	C245.796448,239.082199 247.624344,238.755051 249.628174,239.874664 
@@ -6337,8 +10671,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M243.638062,239.011505 
 	C244.104446,242.972061 243.112030,243.914322 239.527451,241.246048 
@@ -6351,8 +10697,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M240.674927,228.949142 
 	C242.064270,228.983002 243.128510,228.985764 244.591827,228.987183 
@@ -6365,8 +10723,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M252.614838,207.004379 
 	C251.798035,211.869125 247.090088,211.996613 243.336380,213.923004 
@@ -6376,8 +10746,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M284.812439,208.776825 
 	C284.712616,209.470886 284.401459,209.936752 284.072083,210.695786 
@@ -6389,8 +10771,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M240.858490,228.669495 
 	C238.768402,231.392151 237.480606,228.182831 235.323471,228.041641 
@@ -6401,8 +10795,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M242.638809,213.988220 
 	C242.631790,216.002975 241.961716,217.697922 239.207001,217.235016 
@@ -6412,8 +10818,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M231.263382,222.776413 
 	C229.796692,221.899948 229.732330,220.910919 231.598022,220.001404 
@@ -6423,8 +10841,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M230.788376,211.205658 
 	C231.151672,210.985611 231.332306,210.991959 231.784409,211.010361 
@@ -6451,8 +10881,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M225.248672,216.711990 
 	C223.310532,222.071701 219.764313,225.711502 215.397491,229.014954 
@@ -6464,8 +10906,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M218.626007,220.036072 
 	C217.694519,222.765213 216.418915,225.546417 215.084839,228.677155 
@@ -6478,8 +10932,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M225.353455,216.965836 
 	C225.032440,216.582275 225.022034,216.137360 225.013824,215.359406 
@@ -6490,8 +10956,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.686615,212.086823 
 	C228.892075,212.904251 228.586670,213.618698 227.350174,213.921783 
@@ -6501,8 +10979,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M206.254715,240.830765 
 	C206.299118,242.391556 206.546188,243.710571 206.857697,245.359909 
@@ -6520,8 +11010,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M211.376053,235.966553 
 	C211.009888,235.266281 211.005142,234.509094 210.998093,233.373550 
@@ -6533,8 +11035,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M304.867432,337.716705 
 	C302.506012,339.941101 300.290344,341.539398 300.013763,336.764893 
@@ -6568,8 +11082,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M249.711548,272.686249 
 	C253.788284,276.184906 258.963043,275.597595 263.159851,277.724091 
@@ -6613,8 +11139,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M310.075623,279.354706 
 	C311.424438,279.304626 312.850067,279.605560 314.639709,279.952026 
@@ -6627,8 +11165,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M302.671326,276.998840 
 	C303.551880,277.177887 304.097656,277.358215 304.821442,277.771729 
@@ -6639,8 +11189,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M296.712708,373.768066 
 	C297.645081,375.180511 299.540710,374.816742 299.929474,376.685669 
@@ -6679,8 +11241,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M245.722733,412.740723 
 	C246.751678,412.983246 247.492249,412.980652 248.602249,412.971008 
@@ -6715,8 +11289,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M309.999878,419.540894 
 	C305.810516,425.983337 300.199585,423.960602 294.707916,422.753510 
@@ -6733,8 +11319,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M304.665649,407.072784 
 	C307.537170,410.621521 305.955322,414.588440 305.967865,418.418640 
@@ -6750,8 +11348,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M299.956696,368.657104 
 	C299.505524,369.264771 299.009827,369.527100 298.258301,369.905029 
@@ -6769,8 +11379,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M289.460266,359.009155 
 	C283.799011,356.094940 278.943390,353.478638 279.234253,345.810760 
@@ -6790,8 +11412,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M300.286926,359.158081 
 	C298.870514,354.657715 294.076721,355.606842 291.514862,353.129089 
@@ -6815,8 +11449,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M255.705063,350.694794 
 	C261.145874,351.691986 264.789276,354.444336 268.174866,358.405731 
@@ -6838,8 +11484,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M200.708527,301.784607 
 	C200.861130,303.140717 201.065674,304.311188 199.466232,304.964783 
@@ -6856,8 +11514,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M197.254105,281.198059 
 	C193.592804,280.264740 190.255920,279.601715 186.520233,278.916840 
@@ -6875,8 +11545,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M182.029175,252.418732 
 	C183.768677,251.846359 185.244965,251.201965 186.275818,249.221619 
@@ -6900,8 +11582,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M215.181488,272.760132 
 	C212.667938,272.588562 210.723587,274.283142 208.200195,273.452637 
@@ -6926,8 +11620,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M203.552673,268.019531 
 	C206.379456,269.937592 208.565857,267.615021 210.908005,267.497498 
@@ -6946,8 +11652,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M190.608154,274.986725 
 	C195.651550,275.733307 199.718094,272.105927 204.875763,273.242737 
@@ -6960,8 +11678,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M198.163834,269.576721 
 	C197.170303,270.182800 196.421112,270.507050 195.404724,270.990753 
@@ -6976,8 +11706,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M212.000854,263.692474 
 	C211.618088,263.926300 211.301880,263.876801 211.152924,263.935181 
@@ -6990,8 +11732,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M208.771912,258.085266 
 	C206.212463,259.062042 205.839386,260.880066 206.020935,263.442017 
@@ -7004,8 +11758,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M194.656219,260.021698 
 	C194.912888,262.104767 192.557404,263.409302 192.979965,266.116638 
@@ -7016,8 +11782,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M181.425156,257.044373 
 	C183.704544,256.871796 185.591507,257.275665 187.827988,258.085815 
@@ -7029,8 +11807,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M190.988419,272.258057 
 	C191.882706,270.870239 193.148651,271.021881 194.759949,271.104889 
@@ -7041,8 +11831,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M198.247711,269.867065 
 	C197.943253,269.428223 197.966995,268.997833 197.999756,268.241638 
@@ -7053,8 +11855,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M197.756134,257.628540 
 	C198.537186,257.156128 199.660461,256.542694 200.091156,257.612976 
@@ -7065,8 +11879,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M193.126190,257.116455 
 	C193.570267,256.173950 194.160690,256.132141 194.900131,257.052551 
@@ -7076,8 +11902,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M207.626923,234.003693 
 	C204.705750,237.595337 201.570847,241.303909 199.259567,245.906250 
@@ -7087,8 +11925,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M195.324890,249.021942 
 	C194.256470,248.968811 193.517242,248.922729 192.414490,248.804413 
@@ -7102,8 +11952,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M191.631485,246.985703 
 	C192.009689,247.404160 192.016632,247.784973 192.037262,248.449005 
@@ -7114,8 +11976,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M289.622589,417.952301 
 	C290.000000,418.006104 290.002930,418.505463 290.006409,418.755188 
@@ -7135,8 +12009,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M250.178436,272.651184 
 	C249.559906,272.975769 249.116547,272.982239 248.340683,272.986755 
@@ -7153,8 +12039,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M261.196533,268.316589 
 	C263.369232,265.572937 265.745178,264.065948 268.964905,266.895264 
@@ -7167,8 +12065,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M302.254608,266.269958 
 	C301.242828,266.039764 300.493042,266.027893 299.368347,266.031799 
@@ -7197,8 +12107,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M263.229675,255.974548 
 	C263.174988,254.272964 264.040283,253.110229 265.790131,253.085144 
@@ -7212,8 +12134,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M255.773834,254.750214 
 	C256.174164,257.939697 258.547546,255.706177 259.803711,256.777588 
@@ -7231,8 +12165,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M264.005096,256.385712 
 	C266.066803,256.181946 267.280853,257.388306 267.994202,259.606750 
@@ -7242,8 +12188,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M279.177094,261.219055 
 	C279.903290,259.998871 280.524689,260.237732 280.968689,261.705078 
@@ -7253,8 +12211,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M245.795380,256.754761 
 	C246.098846,257.315125 246.292236,257.576721 246.767975,257.911621 
@@ -7278,8 +12248,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M253.324371,261.942200 
 	C252.685455,261.202545 252.373291,260.431763 252.022720,259.351196 
@@ -7290,8 +12272,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M311.415833,266.817688 
 	C310.995026,265.777924 310.984741,264.785522 310.967712,263.418518 
@@ -7304,8 +12298,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M302.060303,266.374146 
 	C303.669647,266.036011 305.427185,265.733826 306.826904,267.663300 
@@ -7315,8 +12321,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M318.121277,269.250336 
 	C318.627502,269.147705 319.138794,269.328979 319.820129,269.728241 
@@ -7326,8 +12344,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M340.151886,274.207214 
 	C341.461578,272.447876 342.619598,273.111786 343.845642,274.686401 
@@ -7337,8 +12367,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M253.880173,367.692017 
 	C256.064178,374.068054 254.673813,375.847992 247.816925,374.722290 
@@ -7375,8 +12417,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.650757,402.191833 
 	C220.385178,403.663605 222.895981,404.988373 225.683807,405.990387 
@@ -7390,8 +12444,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M266.351044,414.949097 
 	C265.628052,411.497284 268.200836,410.601227 270.683777,410.473206 
@@ -7405,8 +12471,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M248.044434,417.403778 
 	C248.152161,417.027405 248.325592,417.017151 248.759476,416.993103 
@@ -7420,8 +12498,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.769836,401.750397 
 	C217.429947,404.106537 216.862549,406.217102 216.146774,408.660187 
@@ -7434,8 +12524,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M195.002869,396.396515 
 	C197.476562,398.034851 200.439651,399.658783 201.000366,403.631714 
@@ -7445,8 +12547,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M202.058441,404.338226 
 	C205.532562,404.185150 206.971375,406.965912 208.844147,409.700439 
@@ -7456,8 +12570,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M264.379272,240.963715 
 	C264.163086,238.420685 262.971069,235.240341 267.272766,234.581207 
@@ -7484,8 +12610,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M311.247162,239.993774 
 	C309.704041,238.735870 308.264832,237.593811 307.143921,236.196457 
@@ -7509,8 +12647,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M303.229248,262.688232 
 	C295.909546,260.317719 288.556702,258.746429 282.082703,253.936478 
@@ -7524,8 +12674,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M270.819092,246.759338 
 	C270.355225,247.779495 269.715790,248.552994 269.020081,249.625610 
@@ -7541,8 +12703,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M303.334595,262.986877 
 	C302.624847,259.212799 297.984406,257.735748 298.009247,253.369446 
@@ -7555,8 +12729,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M316.420593,265.945557 
 	C315.994904,265.484344 315.996948,265.060974 316.003174,264.319397 
@@ -7569,8 +12755,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M317.981506,237.454132 
 	C318.149048,236.977585 318.226746,236.827026 318.577637,236.422760 
@@ -7583,8 +12781,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M325.326874,237.945312 
 	C324.971039,237.589005 324.938385,237.172272 324.895294,236.444366 
@@ -7595,8 +12805,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.565552,362.001648 
 	C229.300186,365.428040 227.646545,368.787933 228.894485,372.302673 
@@ -7613,8 +12835,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M247.040131,363.698395 
 	C242.677353,364.982208 238.323288,366.800690 235.086136,361.363159 
@@ -7637,8 +12871,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M216.638870,346.028473 
 	C216.956787,348.049988 217.438522,349.644226 219.822601,349.967712 
@@ -7653,8 +12899,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M221.285645,343.657837 
 	C220.761017,344.991974 221.545685,346.660187 219.217239,346.232635 
@@ -7667,8 +12925,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M221.143204,356.275146 
 	C222.899689,354.611755 224.449936,354.329163 224.995117,357.616455 
@@ -7678,8 +12948,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M201.077393,301.758606 
 	C200.890656,302.061676 200.415649,302.035095 200.178406,302.017853 
@@ -7698,8 +12980,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M221.351013,344.068298 
 	C220.647446,339.640808 222.646027,334.859680 218.352783,331.070618 
@@ -7721,8 +13015,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M214.291794,312.602814 
 	C213.526367,312.750946 212.944489,312.604156 212.166138,312.219360 
@@ -7734,8 +13040,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M208.055283,404.311584 
 	C208.892426,404.101196 209.652557,404.380798 209.947144,405.685577 
@@ -7745,8 +13063,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M316.329163,227.174362 
 	C316.253448,226.522415 316.512604,226.018280 316.886169,225.254791 
@@ -7758,8 +13088,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M321.286285,224.909637 
 	C321.091980,224.058151 321.398712,223.316589 322.704468,223.063721 
@@ -7769,8 +13111,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M307.007080,218.655731 
 	C305.926727,220.494873 304.750763,219.117416 303.288574,219.036255 
@@ -7786,8 +13140,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M275.750854,218.757202 
 	C275.362671,219.802551 274.727081,220.590286 274.046021,221.684601 
@@ -7802,8 +13168,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M260.535278,224.980774 
 	C261.735535,224.985275 262.494446,224.993561 263.632751,225.006668 
@@ -7817,8 +13195,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M291.624695,211.015320 
 	C292.013397,211.999802 292.023926,212.989822 292.055267,214.341583 
@@ -7829,8 +13219,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M252.635315,225.011169 
 	C252.374969,226.121780 251.741257,227.227356 251.047058,228.654724 
@@ -7842,8 +13244,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M247.622375,226.005508 
 	C248.244781,226.806717 248.492584,227.606949 248.870209,228.697601 
@@ -7857,8 +13271,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M283.847961,219.711075 
 	C282.834229,219.836472 281.665649,219.676010 280.249146,219.262024 
@@ -7868,8 +13294,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M295.023499,215.287186 
 	C295.527252,215.174545 296.078583,215.336044 296.809143,215.728241 
@@ -7879,8 +13317,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M318.748230,235.890625 
 	C318.850891,236.169037 318.661346,236.200165 318.570312,236.199707 
@@ -7891,8 +13341,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M306.838989,216.786499 
 	C304.078857,216.919556 302.233826,215.714600 301.996460,212.374893 
@@ -7902,8 +13364,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M251.065933,245.626114 
 	C250.704941,253.061813 255.827118,248.755829 258.750122,249.765503 
@@ -7918,8 +13392,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M240.028351,254.696899 
 	C239.832672,255.868103 239.345474,257.010223 238.519073,256.301483 
@@ -7935,8 +13421,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M221.951721,245.662140 
 	C219.171555,245.525543 216.413666,244.922546 213.232513,245.843033 
@@ -7949,8 +13447,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M246.155609,256.817200 
 	C244.846222,256.950439 243.626648,257.092773 243.065887,255.343750 
@@ -7961,8 +13471,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M249.284866,230.146454 
 	C248.996887,229.827621 248.997314,229.659775 248.998871,229.239975 
@@ -7974,8 +13496,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M251.248291,243.766602 
 	C250.691132,243.880905 250.435852,243.688995 250.114349,243.215118 
@@ -7986,8 +13520,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M199.057755,249.374985 
 	C198.981415,248.598389 198.980255,248.177841 198.974319,247.442047 
@@ -8005,8 +13551,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.765549,240.159210 
 	C217.581161,242.517273 216.552139,244.286011 213.353607,243.977142 
@@ -8016,8 +13574,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M206.433151,241.054184 
 	C206.106857,238.988281 207.267593,238.062820 209.623184,238.001495 
@@ -8027,8 +13597,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M220.759949,233.790222 
 	C220.152618,234.683243 219.592941,234.622803 219.313599,233.903427 
@@ -8039,8 +13621,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M237.627274,262.877136 
 	C242.538361,262.619659 239.226166,268.490326 241.722473,268.324280 
@@ -8056,8 +13650,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.741348,281.250000 
 	C231.242645,283.339844 234.183960,284.229126 237.613922,284.948975 
@@ -8074,8 +13680,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.692490,303.781494 
 	C230.319321,310.410797 231.648758,316.823883 232.986115,323.619568 
@@ -8089,8 +13707,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M223.645615,317.254700 
 	C226.896194,315.426758 228.326126,317.042328 228.884460,319.595825 
@@ -8105,8 +13735,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M238.327103,331.146851 
 	C238.000610,331.001221 237.994385,330.507751 237.990662,330.261200 
@@ -8119,8 +13761,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.992508,303.598389 
 	C227.318207,304.196930 227.165390,305.397095 226.949005,306.765076 
@@ -8133,8 +13787,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M254.330429,368.144043 
 	C251.878708,367.594849 250.243729,366.482025 249.068481,364.291321 
@@ -8159,8 +13825,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M226.212753,344.217926 
 	C225.404099,339.524048 222.935287,335.473999 222.990692,330.424927 
@@ -8175,8 +13853,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M247.001495,362.632812 
 	C245.610550,362.253479 244.466248,361.287231 244.035248,359.332428 
@@ -8186,8 +13876,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M237.006683,350.996216 
 	C237.013260,350.992462 236.757019,351.412354 236.757019,351.412354 
@@ -8198,8 +13900,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M233.418030,345.008972 
 	C232.334290,342.915649 231.665771,340.838623 230.983154,338.389648 
@@ -8213,8 +13927,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M248.882294,340.741669 
 	C246.784042,341.249054 244.571442,340.778015 242.810638,339.681824 
@@ -8243,8 +13969,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M196.992340,281.280762 
 	C197.680389,280.901733 198.431061,280.875702 199.556198,280.851624 
@@ -8260,8 +13998,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M204.786072,291.210938 
 	C206.791809,290.921783 208.621597,291.254578 210.629745,290.132507 
@@ -8275,8 +14025,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M215.452667,282.282532 
 	C209.785645,285.089539 204.567261,287.312347 200.014465,281.223022 
@@ -8288,8 +14050,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M215.262054,279.277191 
 	C213.890579,278.986145 212.761887,278.962616 211.206329,278.885895 
@@ -8305,8 +14079,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M198.666397,248.980072 
 	C200.521988,250.187592 202.061371,251.356277 203.797394,252.777069 
@@ -8318,8 +14104,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M201.268890,254.156067 
 	C202.024216,253.772537 202.807098,253.630768 203.791992,253.259094 
@@ -8333,8 +14131,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M219.281036,272.293488 
 	C218.644852,271.890106 218.432602,271.651093 218.178436,271.140503 
@@ -8348,8 +14158,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M212.017868,263.906555 
 	C212.120972,262.831665 212.623871,261.737030 213.238098,260.299591 
@@ -8361,8 +14183,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M219.323318,251.955688 
 	C219.003632,251.550949 218.999832,251.108032 218.997406,250.332870 
@@ -8373,8 +14207,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.668304,269.657410 
 	C217.990784,269.771515 218.012451,270.001312 218.056168,270.575867 
@@ -8385,8 +14231,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M216.990936,259.603455 
 	C216.019287,259.992188 215.043152,259.981232 213.708221,259.963531 
@@ -8400,8 +14258,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M237.996658,262.616638 
 	C235.940216,265.958282 233.090591,267.433807 229.225891,267.772491 
@@ -8414,8 +14284,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M305.356567,262.970703 
 	C305.185699,261.305267 304.472382,258.850891 307.383972,259.219940 
@@ -8426,8 +14308,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M262.294128,249.962463 
 	C261.567017,249.096420 259.809509,248.562943 261.281189,247.293289 
@@ -8439,8 +14333,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M249.730713,258.919434 
 	C249.849594,260.018311 249.762512,261.272797 248.563339,261.255798 
@@ -8451,8 +14357,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M225.702972,261.998535 
 	C226.027618,263.705292 226.032425,265.408112 226.040619,267.536499 
@@ -8469,8 +14387,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M266.352051,225.044250 
 	C266.752289,223.608719 267.711792,222.458145 269.664551,222.032089 
@@ -8481,8 +14411,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M225.999634,344.376770 
 	C227.591431,343.967407 228.966614,344.217926 228.990234,346.631104 
@@ -8493,8 +14435,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.649460,284.759277 
 	C220.604202,286.966980 219.615692,282.683014 221.632324,283.005005 
@@ -8511,8 +14465,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M219.009277,319.388824 
 	C221.668900,319.225037 222.068634,321.059875 222.022842,323.591064 
@@ -8522,8 +14488,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M222.622131,325.977936 
 	C222.962097,326.424072 222.972366,326.889130 222.959427,327.703003 
@@ -8534,8 +14512,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.010605,313.334167 
 	C218.561066,313.234955 219.312805,313.947693 218.297562,315.783020 
@@ -8545,8 +14535,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M209.947769,252.697968 
 	C209.564606,253.337158 209.113159,253.656326 208.384949,254.031219 
@@ -8557,8 +14559,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M225.305099,289.926910 
 	C221.259979,289.131897 223.515121,285.590759 222.096771,283.255981 
@@ -8573,8 +14587,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M228.042511,271.658356 
 	C227.552200,271.993744 227.100739,271.988678 226.310349,271.970642 
@@ -8586,8 +14612,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M227.372406,288.965393 
 	C227.281021,287.360596 226.231415,285.376648 228.611359,284.071411 
@@ -8597,8 +14635,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.997162,284.660828 
 	C217.247345,284.995636 216.504974,284.999634 215.391876,285.005371 
@@ -8612,8 +14662,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M212.679718,288.049255 
 	C212.994141,288.442352 212.996124,288.886047 212.996918,289.662445 
@@ -8624,8 +14686,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }} 
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }} 
 	d="
 M217.187378,281.743774 
 	C216.497116,282.251984 216.003723,282.511841 215.253937,282.881958 
@@ -8637,8 +14711,20 @@ z"/>
   strokeWidth="0.3"
   
    initial={{ opacity: 1, pathLength:0}}
-    animate={{ opacity: 1, pathLength:1}}
-    transition={{ duration: 7 }}  
+animate={{
+            pathLength: 1,
+            opacity: 1,
+            stroke: ['#E9FFC2', '#C3EDC0', '#AAC8A7'], 
+          }}
+          transition={{
+            duration: 8,
+            ease: 'easeInOut',
+            stroke: {
+              duration: 10,
+              ease: 'linear',
+              repeat: Infinity,
+            },
+          }}  
 	d="
 M217.114594,282.205750 
 	C216.990509,281.992096 216.995270,281.492798 216.996414,281.243103 

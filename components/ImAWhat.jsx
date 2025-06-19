@@ -17,7 +17,7 @@ export default function ImAWhat() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % titles.length)
-    }, 1000) // change every 1.5 seconds
+    }, 1500) // change every 1.5 seconds
 
     return () => clearInterval(interval)
   }, [])

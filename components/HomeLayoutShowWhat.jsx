@@ -17,7 +17,7 @@ export default function HomeLayoutShowWhat({children}) {
     useEffect(() => {
     const timer = setTimeout(() => {
         setShowIntro(false)
-    }, 6500)
+    }, 12000)
 
     return () => clearTimeout(timer) // cleanup
     }, [])

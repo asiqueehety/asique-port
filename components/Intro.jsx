@@ -16,16 +16,22 @@ const font = Play({
 
 export default function Intro() {
   const [showIm, setShowIm] = useState(false);
-  const [showHello, setShowHello] = useState(true);
+  const [showHello, setShowHello] = useState(false);
   const [showOther, setShowOther] = useState(false);
+
+  
+  setTimeout(() => {
+    setShowHello(true);
+  }, 3000); // Show "I am" for 1 second
+
 
   setTimeout(() => {
     setShowIm(true);
-  }, 1000); // Show "I am" for 1 second
+  }, 4000); // Show "I am" for 1 second
 
   setTimeout(() => {
     setShowOther(true);
-  }, 2500); //  show "other" for 2.5 seconds
+  }, 6500); //  show "other" for 2.5 seconds
   return (
     <div className={`${font.className} bg-black flex text-white h-screen overflow-hidden`}>
       <motion.h1
@@ -35,7 +41,12 @@ export default function Intro() {
       exit={{ opacity: 0, y: -30, x: 0 }}
       transition={{ duration: 0.3 }}
       >
-          {showHello && <span className='text-5xl lg:text-9xl md:text-6xl'>Hello</span>}
+          {showHello && <motion.span
+          initial={{ opacity: 0, y: 0, x: 0 }}
+          animate={{ opacity: 1, y: 0, x: 50}}
+          exit={{ opacity: 0, y: -30, x: 0 }}
+          transition={{ duration: 0.3 }}
+          className='text-5xl lg:text-9xl md:text-6xl'>Hello</motion.span>}
           <br/>
           {showIm && 
           <motion.span 
