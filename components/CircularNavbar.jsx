@@ -75,7 +75,7 @@ export default function CircularNavbar()
         </motion.nav>}
       </AnimatePresence>
       
-      <motion.button className='bg-col2 text-col0 rounded-full p-2 mt-3 hover:bg-col4 hover:text-col5 transition-all duration-300' 
+      <motion.button className='bg-col3 text-col0 rounded-full p-2 mt-3 hover:bg-col4 hover:text-col5 transition-all duration-300 fixed' 
         onClick={()=>{setViewNav(!viewNav)}}
         initial={{x:10, y: 30, rotate: 0}}
         animate={{rotate: viewNav? 180: 0}}

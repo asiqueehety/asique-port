@@ -29,9 +29,9 @@ export default function ImAWhat() {
             key={titles[index]}
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, y: 20 }}
+            exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className='lg:text-8xl md:text-4xl sm:text-xl text-4xl overflow-hidden'
+            className='lg:text-8xl text-6xl overflow-hidden bg-col6 text-black rounded-4xl'
           >
             {titles[index]}
           </motion.h1>

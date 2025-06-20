@@ -8,7 +8,7 @@ export default function Mypic() {
   return (
     <div>
         <svg version="1.1" id="Layer_1"
-        className='w-full h-full'  
+        className='w-full h-full md:w-80 md:h-80 lg:w-full lg:h-full relative'  
         viewBox="55 55 395 440">
 <motion.path  opacity="1.000000"   stroke="#F1EFEC" fill="none"
   strokeWidth="0.3"

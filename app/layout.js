@@ -38,9 +38,8 @@
 
 import { Exo_2 } from 'next/font/google'
 import './globals.css'
-import CircularNavbar from '@/components/CircularNavbar'
-import HomeLayoutClientWrapper from '@/components/HomeLayoutClientWrapper'
 import HomeLayoutShowWhat from '@/components/HomeLayoutShowWhat'
+import Background from '@/components/Background'
 const exo2 = Exo_2({
   subsets: ['latin'],
   weight: ['300'],
@@ -54,8 +53,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   return (
-    <HomeLayoutShowWhat>
-      {children}
-    </HomeLayoutShowWhat>
+  <html lang="en" className={exo2.className}>
+    <body className="antialiased">
+      <Background/>
+      <HomeLayoutShowWhat>
+        {children}
+      </HomeLayoutShowWhat>
+    </body>
+  </html>
   )
 }

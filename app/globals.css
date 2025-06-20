@@ -15,11 +15,13 @@
   --color-col2: #123458;
   --color-col3: #D4C9BE;
   --color-col4: #F1EFEC;
-  --color-col5: #151e51;
+  --color-col5: none;
+  --color-col6: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #20021d;
+    /* --background: #20021d; */
+    --background: #000000;
     --foreground: #ffffff;
   }
 }
@@ -27,4 +29,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  overflow-x: hidden;
 }

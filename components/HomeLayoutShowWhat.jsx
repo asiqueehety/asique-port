@@ -17,23 +17,14 @@ export default function HomeLayoutShowWhat({children}) {
     useEffect(() => {
     const timer = setTimeout(() => {
         setShowIntro(false)
-    }, 12000)
+    }, 12000) //would be 12 seconds, temporary change for now
 
     return () => clearTimeout(timer) // cleanup
     }, [])
 
     return(
-        <html lang="en" className={exo2.className}>
-            <body className="antialiased">
                 <AnimatePresence mode="wait">
                     {showIntro? <Intro key="intro"/>:<HomeLayoutClientWrapper key="main">{children}</HomeLayoutClientWrapper>}
-                </AnimatePresence>
-            </body>
-        </html>
-
-
-
-            
-        
+                </AnimatePresence>        
     )
 }
