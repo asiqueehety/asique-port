@@ -36,40 +36,16 @@ export default function Connect() {
           <motion.div
           className='mt-5 flex flex-row flex-1/4'>
             <a href='https://www.linkedin.com/in/asique96' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={linkedin} alt='linkedin icon' height={40} width={40} onMouseEnter={()=>setHoveredLI(true)} onMouseLeave={()=>setHoveredLI(false)}/>
-              {hoveredLinkedin && <motion.span
-              initial={{x:-10,opacity:0}}
-              animate={{x:0, opacity:1}}
-              exit={{x:-10, opacity:0}}
-              transition={{duration:0.5}}
-              className="overflow-hidden whitespace-nowrap text-white font-medium">Let's connect!</motion.span>}
+              <Image src={linkedin} alt='linkedin icon' height={40} width={40}/>
             </a>
             <a href='https://www.github.com/asiqueehety' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={github} alt='github icon' height={40} width={40} onMouseEnter={()=>setHoveredGH(true)} onMouseLeave={()=>setHoveredGH(false)}/>
-              {hoveredGithub && <motion.span
-              initial={{x:-10,opacity:0}}
-              animate={{x:0, opacity:1}}
-              exit={{x:-10, opacity:0}}
-              transition={{duration:0.5}}
-              className="overflow-hidden whitespace-nowrap text-white font-medium">Codes</motion.span>}
+              <Image src={github} alt='github icon' height={40} width={40}/>
             </a>
             <a href='mailto:asique228@gmail.com' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={gmail} alt='gmail icon' height={40} width={40} onMouseEnter={()=>setHoveredGM(true)} onMouseLeave={()=>setHoveredGM(false)}/>
-              {hoveredGmail && <motion.span
-              initial={{x:-10,opacity:0}}
-              animate={{x:0, opacity:1}}
-              exit={{x:-10, opacity:0}}
-              transition={{duration:0.5}}
-              className="overflow-hidden whitespace-nowrap text-white font-medium">Send an email</motion.span>}
+              <Image src={gmail} alt='gmail icon' height={40} width={40}/>
             </a>
             <a href='tel:+8801896121096' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={phone} alt='phone icon' height={40} width={40} onMouseEnter={()=>setHoveredP(true)} onMouseLeave={()=>setHoveredP(false)}/>
-              {hoveredPhone && <motion.span
-              initial={{x:-10,opacity:0}}
-              animate={{x:0, opacity:1}}
-              exit={{x:-10, opacity:0}}
-              transition={{duration:0.5}}
-              className="overflow-hidden whitespace-nowrap text-white font-medium">Contact me</motion.span>}
+              <Image src={phone} alt='phone icon' height={40} width={40}/>
             </a>
           </motion.div>
       </motion.h1>

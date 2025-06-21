@@ -17,14 +17,14 @@ export default function HomeLayoutShowWhat({children}) {
     useEffect(() => {
     const timer = setTimeout(() => {
         setShowIntro(false)
-    }, 12400) //would be 12 seconds, temporary change for now
+    }, 12500) //would be 12 seconds, temporary change for now
 
     return () => clearTimeout(timer) // cleanup
     }, [])
 
     return(
-                <AnimatePresence mode="wait">
-                    {showIntro? <Intro key="intro"/>:<HomeLayoutClientWrapper key="main">{children}</HomeLayoutClientWrapper>}
-                </AnimatePresence>        
+    <AnimatePresence mode="wait">
+        {showIntro? <Intro key="intro"/>:<HomeLayoutClientWrapper key="main">{children}</HomeLayoutClientWrapper>}
+    </AnimatePresence>        
     )
 }

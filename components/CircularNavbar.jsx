@@ -73,7 +73,6 @@ export default function CircularNavbar()
             <li><Link id='skills' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/skills' className={`${curHov=='skills' || cur=='skills'? 'opacity-150':'opacity-15'}`}>Skills</Link></li>
             <li><Link id='projects' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/projects' className={`${curHov=='projects' || cur=='projects'? 'opacity-150':'opacity-15'}`}>Projects</Link></li>
             <li><Link id='achievements' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/achievements' className={`${curHov=='achievements' || cur=='achievements'? 'opacity-150':'opacity-15'}`}>Achievements</Link></li>
-            <li><Link id='contact' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/contact' className={`${curHov=='contact' || cur=='contact'? 'opacity-150':'opacity-15'}`}>Contact</Link></li>
             <li><Link id='extras' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/extras' className={`${curHov=='extras' || cur=='extras'? 'opacity-150':'opacity-15'}`}>extras</Link></li>
           </ul>
           

@@ -3,7 +3,7 @@
 import {motion, AnimatePresence} from 'framer-motion'
 import React from 'react'
 import  { Antonio } from 'next/font/google'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import ImAWhat from '@/components/ImAWhat';
 import Mypic from '@/components/Mypic';
 
@@ -19,19 +19,22 @@ export default function Intro() {
   const [showHello, setShowHello] = useState(false);
   const [showOther, setShowOther] = useState(false);
 
+  useEffect(()=>{
+    setTimeout(() => {
+      setShowHello(true);
+    }, 3000); // Show "Hello" after 3 second
+
+
+    setTimeout(() => {
+      setShowIm(true);
+    }, 4000); // Show "I'm" after 4 second
+
+    setTimeout(() => {
+      setShowOther(true);
+    }, 6500); //  show `other` for 2.5 seconds
+  },[])
   
-  setTimeout(() => {
-    setShowHello(true);
-  }, 3000); // Show "I am" for 1 second
 
-
-  setTimeout(() => {
-    setShowIm(true);
-  }, 4000); // Show "I am" for 1 second
-
-  setTimeout(() => {
-    setShowOther(true);
-  }, 6500); //  show "other" for 2.5 seconds
   return (
     <div className={`${font.className} bg-black flex text-white h-screen overflow-hidden`}>
       <motion.h1
