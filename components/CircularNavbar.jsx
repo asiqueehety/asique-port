@@ -53,7 +53,7 @@ export default function CircularNavbar()
   }
 
   return(
-    <div className={`${font.className} bg-white`}>
+    <div className={`${font.className}`}>
       <AnimatePresence mode='wait'>
         {viewNav && <motion.nav
         key='navbar'
