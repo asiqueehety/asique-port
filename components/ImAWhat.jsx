@@ -7,7 +7,7 @@ export default function ImAWhat() {
 
   const titles = [
     'Full-Stack Web Developer',
-    'Flutter Developer',
+    'App Developer',
     'Software Developer',
     'UI/UX Designer',
   ]
@@ -31,7 +31,7 @@ export default function ImAWhat() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className='lg:text-8xl text-6xl overflow-hidden bg-col6 text-black rounded-4xl'
+            className=' lg:text-7xl text-6xl overflow-hidden text-white rounded-4xl pt-2 pb-2 pr-1 pl-1'
           >
             {titles[index]}
           </motion.h1>

@@ -15,9 +15,9 @@ export default function Background() {
       if (window.VANTA && window.VANTA.WAVES) {
         window.VANTA.WAVES({
           el: vantaRef.current,
-          mouseControls: false,
+          mouseControls: true,
           touchControls: true,
-          gyroControls: false,
+          gyroControls: true,
           minHeight: 200.0,
           minWidth: 200.0,
           scale: 1.0,

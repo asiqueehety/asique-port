@@ -2,16 +2,16 @@
 
 import {motion, AnimatePresence} from 'framer-motion'
 import React from 'react'
-import  { Exo_2, Maven_Pro, Play } from 'next/font/google'
+import  { Antonio } from 'next/font/google'
 import { useState } from 'react';
 import ImAWhat from '@/components/ImAWhat';
 import Mypic from '@/components/Mypic';
 
 
 
-const font = Play({
+const font = Antonio({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['600'],
 })
 
 export default function Intro() {
