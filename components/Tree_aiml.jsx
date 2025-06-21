@@ -24,7 +24,7 @@ const TreeNode = ({ label, children }) => {
       <AnimatePresence>
         {isOpen && children && (
           <motion.div
-            className="pl-4 mt-1 border-l border-gray-600"
+            className="pl-4 mt-0 border-l border-gray-600"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
