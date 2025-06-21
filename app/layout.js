@@ -2,6 +2,7 @@ import { Exo_2 } from 'next/font/google'
 import './globals.css'
 import HomeLayoutShowWhat from '@/components/HomeLayoutShowWhat'
 import Background from '@/components/Background'
+
 const exo2 = Exo_2({
   subsets: ['latin'],
   weight: ['600'],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <HomeLayoutShowWhat>
         {children}
       </HomeLayoutShowWhat>
+
     </body>
   </html>
   )
