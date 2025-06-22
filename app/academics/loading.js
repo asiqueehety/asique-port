@@ -63,12 +63,12 @@ export default function Loading() {
       setIndices((prev) =>
         prev.map((i) => (i + 1) % fonts.length)
       )
-    }, 50)
+    }, 400)
 
     return () => clearInterval(interval)
   }, [])
 
-  const letters = ['l', 'o', 'a', 'd', 'i', 'n', 'g']
+  const letters = ['L', 'O', 'A', 'D', 'I', 'N', 'G']
 
   return (
     <div className="flex items-center justify-center h-screen gap-1">
@@ -77,7 +77,7 @@ export default function Loading() {
           key={idx}
           className={`${fonts[indices[idx]].className} text-6xl text-white`}
         >
-          {char}...
+          {char}
         </p>
       ))}
     </div>
