@@ -6,6 +6,8 @@ import { Lexend, Glory , Rationale, Tomorrow } from 'next/font/google'
 import SVG2021 from '@/components/SVG2021';
 import SVG2019 from '@/components/SVG2019';
 import SVGco2026 from '@/components/SVGco2026'
+import SVG2016 from '@/components/SVG2016';
+import SVG2013 from '@/components/SVG2013';
 import Image from 'next/image'
 import {Typewriter} from 'react-simple-typewriter'
 
@@ -40,7 +42,7 @@ export default function Academies(props){
     const vb="140 120 300 130"
   return (
     <AnimatePresence>
-        <motion.div className={`rounded-r-2xl rounded-l-4xl grid lg:grid-cols-[1fr_3fr] lg:gap-1 lg:w-300 ${font.className} ${hovered? 'shadow-[0_0_15px_5px_rgba(34,211,238,0.7)]':''} p-1`}
+        <motion.div className={`rounded-r-2xl rounded-l-4xl grid lg:grid-cols-[1fr_3fr] lg:gap-1 lg:w-300 ${font2.className} ${hovered? 'shadow-[0_0_15px_5px_rgba(34,211,238,0.7)]':''} p-1`}
             ref={viewRef}
             initial={{x:-100, opacity:0}}
             animate={isInView? (hovered? {x:0,opacity:1,scale:0.99}:{x:0,opacity:1}):{x:-100,opacity:0}}
@@ -49,7 +51,7 @@ export default function Academies(props){
             onMouseLeave={()=>{setHovered(false)}}>
             <motion.div className={`text-xl gap-0 rounded-2xl grid grid-rows-1 grid-cols-[1fr_1fr] ml-3 ${font2.className} w-fit h-fit`}>
                 <div className='size-40 flex justify-center items-center'>
-                    {year=='2019'? <SVG2019 viewbox={vb}/>: (year=='2021'? <SVG2021 viewbox={vb}/>:<SVGco2026 />)}
+                    {year=='2019'? <SVG2019 viewbox={vb}/>: (year=='2021'? <SVG2021 viewbox={vb}/>:(year=='2016'? <SVG2016 viewbox={vb}/>:(year=='2013'? <SVG2013 viewbox={vb}/>:<SVGco2026 />)))}
                 </div>
                 <div className='flex justify-start items-center ml-3'>
                     <Typewriter
@@ -62,7 +64,6 @@ export default function Academies(props){
                     delaySpeed={10000}
                     />
                 </div>
-                
             </motion.div>
             <motion.div
             className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl w-full grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr]'
@@ -86,21 +87,21 @@ export default function Academies(props){
                     {inst_current? 
                     <>
                         <></>
-                        <div className='rounded-2xl size-fit' >
-                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl size-fit'>Semester:</div>{session} | 8
+                        <div className='rounded-2xl size-fit flex flex-row gap-1' >
+                            <div className='backdrop-blur-md border border-white/20 shadow-lg rounded-xl size-fit p-1'>Semester:</div><div className='flex items-center'>{session}th / 8</div>
                         </div>
-                        <div className='rounded-2xl size-fit' >
-                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl size-fit'>CGPA:</div>{result}
+                        <div className='rounded-2xl size-fit  flex flex-row gap-1' >
+                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl size-fit p-1'>CGPA:</div><div className='flex items-center'>{result}</div>
                         </div>
                     </>
                     :
                     <>
                         <></>
-                        <div className=' rounded-2xl size-fit' >
+                        <div className=' rounded-xl size-fit' >
                             {session}
                         </div>
-                        <div className='rounded-2xl size-fit' >
-                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl size-fit'>GPA:</div>{result}
+                        <div className='rounded-lg size-fit flex flex-row gap-1' >
+                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl size-fit p-1'>GPA:</div><div className='flex items-center'>{result}</div>
                         </div>
                     </>} 
                 </div>

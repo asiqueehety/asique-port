@@ -9,7 +9,7 @@ const exo2 = Exo_2({
 })
 
 export const metadata = {
-  title: 'AsiqueEhety',
+  title: 'Asique Ehety',
   description: 'Portfolio of AsiqueEhety',
   }
 
