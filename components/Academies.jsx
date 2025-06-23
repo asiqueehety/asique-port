@@ -38,7 +38,7 @@ export default function Academies(props){
     const [hovered,setHovered]=useState(false)
     const [showFull, setShowFull]= useState(false);
     const viewRef = useRef(null)
-    const isInView = useInView(viewRef, { once: false, margin: '0px 0px -10% 0px' })
+    const isInView = useInView(viewRef, { once: false, margin: '0px 0px -10% 0px',threshold: 0.1 })
     const vb="140 120 300 130"
   return (
     <AnimatePresence>

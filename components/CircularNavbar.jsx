@@ -20,7 +20,6 @@ export default function CircularNavbar()
   const [cur, setCur] = useState(path.split('/')[1] || 'home'); // Default to 'home' if path is empty
   const [viewNav, setViewNav] = useState(true);
   const [isMounted, setIsMounted] = useState(false) //used to prevent hydration mismatch
-
   //Run once after mount to detect mobile width
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -55,6 +54,7 @@ export default function CircularNavbar()
   return(
     <div className={`${font.className}`}>
       <AnimatePresence mode='wait'>
+        <div className='bg-none fixed top-50 left-0 h-full w-60' onMouseOver={()=>{window.innerWidth>1040 && setViewNav(true)}}></div>
         {viewNav && <motion.nav
         key='navbar'
         initial={{x:-100,opacity: 0}}
