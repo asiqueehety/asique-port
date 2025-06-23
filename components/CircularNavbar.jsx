@@ -54,7 +54,7 @@ export default function CircularNavbar()
   return(
     <div className={`${font.className}`}>
       <AnimatePresence mode='wait'>
-        <div className='bg-none fixed top-50 left-0 h-full w-60' onMouseOver={()=>{window.innerWidth>1040 && setViewNav(true)}}></div>
+        <div className='bg-none fixed top-50 left-0 h-full w-60' onMouseOver={()=>{window.innerWidth>1040 && setViewNav(true)}} onMouseOut={()=>{window.innerWidth>1040 && setViewNav(false)}}></div>
         {viewNav && <motion.nav
         key='navbar'
         initial={{x:-100,opacity: 0}}
@@ -62,7 +62,7 @@ export default function CircularNavbar()
         exit={{ x: -1000, opacity: 1 }}
         transition={{ duration: 0.1 , ease: 'easeInOut' }}
         onMouseOver={()=>
-          {setNavHover(true)}}
+          {setNavHover(true);setViewNav(true)}}
         onMouseOut={()=>
           {setNavHover(false)}}
         

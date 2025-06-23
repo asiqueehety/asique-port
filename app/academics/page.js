@@ -24,7 +24,7 @@ export default function Page() {
       {btnClicked &&
       <>
       <Academies name='Birshreshtha Noor Mohammad Public College' image={bnmpc} link='https://www.noormohammadcollege.ac.bd/' desc='' current={false} degree='Junior School Certificate' year='2016' shortName='BNMPC' session='2014 - 2019' result='5.00'/>      
-      <Academies name='Future Gen International School' image={fgis} link='https://www.facebook.com/FutureGenInternationalSchool' desc='' current={false} degree='Primary Education Completion' year='2013' shortName='FGIS' session='2012-2013' result='5.00'/>
+      <Academies name='Future Gen International School' image={fgis} link='https://www.facebook.com/FutureGenInternationalSchool' desc='' current={false} degree='Primary Education Completion' year='2013' shortName='FGIS' session='2012 - 2013' result='5.00'/>
       </>
       }
 
