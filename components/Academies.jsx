@@ -5,7 +5,7 @@ import {AnimatePresence, motion, scale, useInView} from 'framer-motion'
 import { Lexend, Glory , Rationale, Tomorrow } from 'next/font/google'
 import SVG2021 from '@/components/SVG2021';
 import SVG2019 from '@/components/SVG2019';
-import SVGco2021 from '@/components/SVGco2021'
+import SVGco2026 from '@/components/SVGco2026'
 import Image from 'next/image'
 import {Typewriter} from 'react-simple-typewriter'
 
@@ -49,7 +49,7 @@ export default function Academies(props){
             onMouseLeave={()=>{setHovered(false)}}>
             <motion.div className={`text-xl gap-0 rounded-2xl grid grid-rows-1 grid-cols-[1fr_1fr] ml-3 ${font2.className} w-fit h-fit`}>
                 <div className='size-40 flex justify-center items-center'>
-                    {year=='2019'? <SVG2019 viewbox={vb}/>: (year=='2021'? <SVG2021 viewbox={vb}/>:<SVGco2021 />)}
+                    {year=='2019'? <SVG2019 viewbox={vb}/>: (year=='2021'? <SVG2021 viewbox={vb}/>:<SVGco2026 />)}
                 </div>
                 <div className='flex justify-start items-center ml-3'>
                     <Typewriter
