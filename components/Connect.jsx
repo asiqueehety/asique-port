@@ -34,7 +34,7 @@ export default function Connect() {
       className={`${font.className} text-3xl`}>
           Get in touch!
           <motion.div
-          className='mt-5 flex flex-row flex-1/4'>
+          className='mt-5 flex flex-row flex-1/4 *:hover:scale-90 *:transition-all'>
             <a href='https://www.linkedin.com/in/asique96' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
               <Image src={linkedin} alt='linkedin icon' height={40} width={40}/>
             </a>
@@ -74,7 +74,7 @@ export default function Connect() {
             className={`${font.className} text-3xl lg:ml-10 ml-0`}>
               ...
               <motion.div
-              className='mt-5 flex flex-row flex-1/4'>
+              className='mt-5 flex flex-row flex-1/4 *:hover:scale-90 *:transition-all'>
                 <a href='https://www.facebook.com/sal.a.zar.eht/' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
                   <Image src={facebook} alt='facebook icon' height={40} width={40}/>
                 </a>

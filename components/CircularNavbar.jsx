@@ -77,7 +77,7 @@ export default function CircularNavbar()
           </ul>
           
         </motion.nav>}
-        {viewNav && window.innerWidth < 640 && (
+        {viewNav && window.innerWidth < 1040 && (
           <motion.div
             key="overlay"
             initial={{ opacity: 0 }}

@@ -63,7 +63,7 @@ export default function Loading() {
       setIndices((prev) =>
         prev.map((i) => (i + 1) % fonts.length)
       )
-    }, 400)
+    }, 100)
 
     return () => clearInterval(interval)
   }, [])
