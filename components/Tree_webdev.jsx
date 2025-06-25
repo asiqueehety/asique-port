@@ -64,6 +64,9 @@ export default function Tree_webdev() {
           <TreeNode label="PostgreSQL" />
           <TreeNode label="MongoDB" />
         </TreeNode>
+        <TreeNode label="Full Stack">
+          <TreeNode label="NextJS" />
+        </TreeNode>
       </TreeNode>
     </div>
   )

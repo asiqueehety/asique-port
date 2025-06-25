@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useRef } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { Lexend } from 'next/font/google'
 import {Typewriter} from 'react-simple-typewriter'
 import Tree_webdev from './Tree_webdev'
@@ -101,25 +101,31 @@ export default function SoftIntro() {
         {!readBio ? (
           <motion.h2
           className="text-lg relative z-10 animate-bounce text-blue-200 p-0"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          initial={{ height:100,opacity: 0 }}
+          animate={{ height:'auto',opacity: 1 }}
+          transition={{ duration: 0.4 }}
           >
             more about me
           </motion.h2>
         ) : (
-          <motion.p
-          className="relative z-10 text-blue-200"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          >
-            I’m a <span className="text-3xl">full-stack web developer</span>, a <span className="text-3xl">competitive programmer</span>, <span className="text-3xl">UI/UX designer</span>, and an <span className="text-3xl">app developer</span>—committed to crafting seamless digital experiences that don’t just look good but feel right. With a strong foundation in clean code and creative thinking, I love turning abstract ideas into intuitive interfaces and scalable applications.
-            <br />
-            Beyond the web, I dive deep into the logic that powers machines. I'm fascinated by <span className="text-3xl">operating systems</span>, <span className="text-3xl">computer architecture</span>, and how hardware and software coalesce to create efficient, intelligent systems. My curiosity doesn't stop there—I’m also drawn to the world of data science, always exploring how raw data can tell stories, reveal insights, and drive smarter decisions.
-            <br />
-            Whether I’m debugging a tricky algorithm, sketching the wireframe of a new interface, building cross-platform apps, or studying the anatomy of a CPU instruction cycle—I’m always driven by the same goal: to understand deeply and create meaningfully.
-          </motion.p>
+          <AnimatePresence>
+            <motion.p
+            className="relative z-10 text-blue-200"
+            initial={{ height:0,opacity: 0 }}
+            animate={{ height:'auto',opacity: 1 }}
+            exit={{height:0, opacity:1}}
+            transition={{ duration: 0.3, ease:'easeInOut' }}
+            onClick={()=>{setReadBio(false)}}
+            >
+              I’m a <span className="text-3xl">full-stack web developer</span>, a <span className="text-3xl">competitive programmer</span>, <span className="text-3xl">UI/UX designer</span>, and an <span className="text-3xl">app developer</span>—committed to crafting seamless digital experiences that don’t just look good but feel right. With a strong foundation in clean code and creative thinking, I love turning abstract ideas into intuitive interfaces and scalable applications.
+              <br />
+              Beyond the web, I dive deep into the logic that powers machines. I'm fascinated by <span className="text-3xl">operating systems</span>, <span className="text-3xl">computer architecture</span>, and how hardware and software coalesce to create efficient, intelligent systems. My curiosity doesn't stop there—I’m also drawn to the world of data science, always exploring how raw data can tell stories, reveal insights, and drive smarter decisions.
+              <br />
+              Whether I’m debugging a tricky algorithm, sketching the wireframe of a new interface, building cross-platform apps, or studying the anatomy of a CPU instruction cycle—I’m always driven by the same goal: to understand deeply and create meaningfully.
+            </motion.p>
+          </AnimatePresence>
+
+            
         )}
       </motion.div>
     </section>
