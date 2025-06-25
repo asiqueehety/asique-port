@@ -10,6 +10,7 @@ import SVG2016 from '@/components/SVG2016';
 import SVG2013 from '@/components/SVG2013';
 import Image from 'next/image'
 import {Typewriter} from 'react-simple-typewriter'
+import location_tag from '../public/resources/location.png'
 
 
 const font=Lexend({
@@ -29,6 +30,8 @@ export default function Academies(props){
     const inst_link= props.link
     const inst_desc= props.desc
     const inst_current = props.current //if it's my current institute or not
+    const inst_location = props.location
+    const inst_short_location = props.location_short
     const degree = props.degree
     const year = props.year;
     const shortName= props.shortName;
@@ -68,20 +71,29 @@ export default function Academies(props){
             <motion.div
             className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl w-full grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr]'
             >
-                <div className='grid grid-rows-[3fr_2fr]' onMouseOver={()=>{setShowFull(true)}} onMouseOut={()=>{setShowFull(false)}}>
+                <div className='grid lg:grid-rows-[3fr_1fr_1fr] grid-rows-[1.5fr_1fr_1fr]' onMouseOver={()=>{setShowFull(true)}} onMouseOut={()=>{setShowFull(false)}}>
                     <Image
                     src={inst_img}
                     alt='pic of school'
                     width={200} height={200}
                     className="m-2 rounded-xl" />
                     {!showFull? 
-                    <div className={`${font2.className} ml-4 text-lg w-fit`}>
+                    <div className={`${font2.className} backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl ml-2 text-lg lg:w-fit h-fit w-full p-1`}>
                         {inst_name}
                     </div>
                     :
-                    <div className={`${font2.className} ml-4 text-4xl w-fit`}>
-                        {shortName}
-                    </div>}
+                    <motion.div className={`${font2.className} backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl ml-2 text-4xl lg:w-fit h-fit w-full p-1`}
+                    initial={{height:0, opacity:0}}
+                    animate={{height:"auto",opacity:1}}>
+                        <a href={inst_link} target='_blank'>{shortName}</a>
+                    </motion.div>}
+                    <motion.div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl lg:w-fit p-2 m-2 hover:scale-95 transition-all h-fit w-full'
+                    initial={{height:0, opacity:0}}
+                    animate={{height:"auto",opacity:1}}>
+                        <a href={inst_location} target='_blank'>
+                        <div className='flex lg:flex-row flex-col gap-2 h-fit w-fit'><Image src={location_tag} alt='Location tag' width={25} height={25}/><div>{inst_short_location}</div></div>
+                        </a>
+                    </motion.div>
                 </div>
                 <div className='grid grid-rows-3 items-center ml-10 mt-10'>
                     {inst_current? 

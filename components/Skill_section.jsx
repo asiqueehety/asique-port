@@ -11,6 +11,7 @@ const lexend_font = Lexend({ weight: ['600'], subsets: ['latin'] })
 
 export default function Skill_section(props) {
   const [readSkills, setReadSkills] = useState(false);
+  const [hovered, setHovered] = useState(false)
   const title = props.title;
   const image = props.image;
   const skillCard_props = props.skillCard_props
@@ -19,10 +20,13 @@ export default function Skill_section(props) {
   return (
     <motion.div
       className={`${lexend_font.className} backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl w-full`} onClick={() => setReadSkills(prev=>!prev)}
+      initial={{width:0,opacity:0}}
+      animate={{width:"auto",opacity:1}}
+      transition={{duration:0.5}}
     >
       <div
-        className={`${()=>{readSkills && 'border-t-0 border-s-0'}}cursor-pointer backdrop-blur-md bg-black/50  border-white/20 shadow-lg rounded-2xl m-3 p-2 flex items-center justify-center gap-4`}
-        
+        className={`${()=>{readSkills && 'border-t-0 border-r-0 border-l-0'}} cursor-pointer backdrop-blur-md bg-black/50  border-white/20 rounded-2xl m-3 p-2 flex items-center justify-center gap-4  ${hovered? 'shadow-[0_0_15px_5px_rgba(34,211,238,0.7)]':''}`}
+        onMouseEnter={()=>{setHovered(true)}} onMouseLeave={()=>{setHovered(false)}}
       >
         <Image src={image} alt={`${title} Icon`} width={50} height={50} loading='lazy' />
         <span className='lg:text-4xl text-2xl font-semibold text-white'>{title}</span>
