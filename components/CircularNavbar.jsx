@@ -54,7 +54,7 @@ export default function CircularNavbar()
   return(
     <div className={`${font.className}`}>
       <AnimatePresence mode='wait'>
-        <div className='bg-none fixed top-50 left-0 h-full w-60' onMouseOver={()=>{window.innerWidth>1040 && setViewNav(true)}} onMouseOut={()=>{window.innerWidth>1040 && setViewNav(false)}}></div>
+        <div className='bg-none fixed top-0 left-0 h-full w-60' onMouseOver={()=>{window.innerWidth>1040 && setViewNav(true)}} onMouseOut={()=>{window.innerWidth>1040 && setViewNav(false)}}></div>
         {viewNav && <motion.nav
         key='navbar'
         initial={{x:-100,opacity: 0}}
@@ -70,8 +70,7 @@ export default function CircularNavbar()
           <ul className='flex flex-col h-full *:hover:bg-col4 *:hover:text-col2 *:transition-all *:duration-300 *:mt-3 *:mb-3 *:w-fit'>
             <li><Link id='home' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/' className={`${curHov=='home' || cur=='home'? 'opacity-150':'opacity-15'}`}>Meet me!</Link></li>
             <li><Link id='academics' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/academics' className={`${curHov=='academics' || cur=='academics'? 'opacity-150':'opacity-15'}`}>Academics</Link></li>
-            <li><Link id='skills' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/skills' className={`${curHov=='skills' || cur=='skills'? 'opacity-150':'opacity-15'}`}>Skills</Link></li>
-            <li><Link id='projects' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/projects' className={`${curHov=='projects' || cur=='projects'? 'opacity-150':'opacity-15'}`}>Projects</Link></li>
+            <li><Link id='skills' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/skills' className={`${curHov=='skills' || cur=='skills'? 'opacity-150':'opacity-15'}`}>Skills & Projects</Link></li>
             <li><Link id='achievements' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/achievements' className={`${curHov=='achievements' || cur=='achievements'? 'opacity-150':'opacity-15'}`}>Achievements</Link></li>
             <li><Link id='extras' onMouseOver={hoverFunc} onMouseOut={hoverOut} onClick={linkClicked} href='/extras' className={`${curHov=='extras' || cur=='extras'? 'opacity-150':'opacity-15'}`}>extras</Link></li>
           </ul>
