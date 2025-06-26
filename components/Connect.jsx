@@ -9,10 +9,6 @@ import gmail from '@/public/resources/gmail.png'
 import phone from '@/public/resources/phone-call.png'
 import facebook from '@/public/resources/facebook.png'
 import twitter from '@/public/resources/twitter.png'
-import whatsapp from '@/public/resources/whatsapp.png'
-import telegram from '@/public/resources/telegram.png'
-import discord from '@/public/resources/discord.png'
-
 
 import Image from 'next/image'
 import {useState} from 'react'

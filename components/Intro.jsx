@@ -1,6 +1,6 @@
 'use client'
 
-import {motion, AnimatePresence} from 'framer-motion'
+import {motion} from 'framer-motion'
 import React from 'react'
 import  { Antonio } from 'next/font/google'
 import { useState,useEffect } from 'react';

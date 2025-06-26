@@ -2,6 +2,7 @@ import { Exo_2 } from 'next/font/google'
 import './globals.css'
 import HomeLayoutShowWhat from '@/components/HomeLayoutShowWhat'
 import Background from '@/components/Background'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const exo2 = Exo_2({
   subsets: ['latin'],

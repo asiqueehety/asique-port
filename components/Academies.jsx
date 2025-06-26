@@ -2,7 +2,7 @@
 
 import React,{ useRef , useState } from 'react'
 import {AnimatePresence, motion, scale, useInView} from 'framer-motion'
-import { Lexend, Glory , Rationale, Tomorrow } from 'next/font/google'
+import { Lexend, Glory } from 'next/font/google'
 import SVG2021 from '@/components/SVG2021';
 import SVG2019 from '@/components/SVG2019';
 import SVGco2026 from '@/components/SVGco2026'

@@ -137,6 +137,14 @@ export default function Page() {
       'skillsUsed':['C','x86 Assembly','Kernel development'],
       'link':'...',
       'image':'/resources/os.png'
+    },
+    'Taxonomy.io':
+    {
+      'shortDesc':'(WORK IN PROGRESS) An terminal based project which will recognise animals based on their characteristics upon seeing their images (much to be done).',
+      'githubRepoLink':'https://github.com/asiqueehety/Taxonomy-Evolution',
+      'skillsUsed':['C++'],
+      'link':'...',
+      'image':'/resources/taxonomy.png'
     }
   }
   const proj_uiux = 

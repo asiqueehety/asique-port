@@ -3,8 +3,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import {useState } from 'react'
-import Intro from '@/components/Intro'
-import { Exo_2, Truculenta } from 'next/font/google'
+import { Exo_2} from 'next/font/google'
 import CircularNavbar from '@/components/CircularNavbar'
 
   const exo2 = Exo_2({
