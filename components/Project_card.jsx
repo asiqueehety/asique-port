@@ -34,14 +34,14 @@ export default function Skill_card(props) {
         onClick={()=>{setHoveredTitle(!hoveredTitle)}}
         transition={{duration:0.5}}
         exit={{opacity:0}}>
-            <Image src={img} alt={`${title} image`} width={120} height={120} className='m-1 rounded-2xl'/>
+            <Image loading="lazy" src={img} alt={`${title} image`} width={120} height={120} className='m-1 rounded-2xl'/>
             <h1 className={`${font.className} m-1 text-2xl flex justify-center items-center`}>{title}</h1>
             {hoveredTitle &&
             <motion.div className='bg-black w-30 h-10 rounded-full flex m-auto justify-center items-center'
             initial={{width:0}}
             animate={{width:'auto'}}
             exit={{width:0}}>
-                <a href={repoLink} target='_blank'><Image src={githubIcon} alt='Github Icon' width={32} height={32}/></a>
+                <a href={repoLink} target='_blank'><Image loading="lazy" src={githubIcon} alt='Github Icon' width={32} height={32}/></a>
             </motion.div>}
         </motion.div>
         <div className='bg-black/1 border border-none rounded-2xl m-3 mt-0 mb-0 h-fit w-fit'><p className=' m-3 flex justify-center'>{shortDesc}</p></div>

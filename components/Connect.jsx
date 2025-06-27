@@ -34,20 +34,20 @@ export default function Connect() {
           <motion.div
           className='mt-5 flex flex-row flex-1/4 *:hover:scale-90 *:transition-all'>
             <a href='https://www.linkedin.com/in/asique96' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={linkedin} alt='linkedin icon' height={40} width={40}/>
+              <Image loading="lazy" src={linkedin} alt='linkedin icon' height={40} width={40}/>
             </a>
             <a href='https://www.github.com/asiqueehety' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={github} alt='github icon' height={40} width={40}/>
+              <Image loading="lazy" src={github} alt='github icon' height={40} width={40}/>
             </a>
             <a href='mailto:asique228@gmail.com' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={gmail} alt='gmail icon' height={40} width={40}/>
+              <Image loading="lazy" src={gmail} alt='gmail icon' height={40} width={40}/>
             </a>
             
             <a href='tel:+8801896121096' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'
             onMouseOver={()=>{setHoveredP(true)}}
             onMouseOut={()=>{setHoveredP(false)}}
             >
-                <Image src={phone} alt='phone icon' height={40} width={40}/>
+                <Image loading="lazy" src={phone} alt='phone icon' height={40} width={40}/>
                 <AnimatePresence>
                 {hoveredPhone && 
                 
@@ -93,13 +93,13 @@ export default function Connect() {
               <motion.div
               className='mt-5 flex flex-row flex-1/4 *:hover:scale-90 *:transition-all'>
                 <a href='https://www.facebook.com/sal.a.zar.eht/' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-                  <Image src={facebook} alt='facebook icon' height={40} width={40}/>
+                  <Image loading="lazy" src={facebook} alt='facebook icon' height={40} width={40}/>
                 </a>
                 <a href='https://x.com/imposteht' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-                  <Image src={twitter} alt='x icon' height={40} width={40}/>
+                  <Image loading="lazy" src={twitter} alt='x icon' height={40} width={40}/>
                 </a>
                 <a href='https://www.instagram.com/salzareht/' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-                  <Image src={instagram} alt='x icon' height={40} width={40}/>
+                  <Image loading="lazy" src={instagram} alt='x icon' height={40} width={40}/>
                 </a>
               </motion.div>
             </motion.h1>

@@ -52,7 +52,7 @@ export default function Skill_section(props) {
         className={`${()=>{readSkills && 'border-t-0 border-r-0 border-l-0'}} cursor-pointer bg-black/50  border-none rounded-2xl m-3 p-2 flex items-center justify-center gap-4 ${hovered? 'shadow-[0px_0px_1px_1px_rgba(34,211,238,0.7)]':''}`}
         onMouseEnter={()=>{setHovered(true)}} onMouseLeave={()=>{setHovered(false)}} onClick={handleTitleClick}
       >
-        <Image src={image} alt={`${title} Icon`} width={50} height={50} loading='lazy' />
+        <Image loading="lazy" src={image} alt={`${title} Icon`} width={50} height={50} />
         <span className='lg:text-4xl text-2xl font-semibold text-white'>{title}</span>
         </div>
         {(readSkills && !showProjects) &&

@@ -94,7 +94,7 @@ export default function CircularNavbar()
         animate={{rotate: viewNav? 180: 0}}
         transition={{duration: 0.1}}
         >
-        <Image src='/resources/next.png' alt='Show Navigation Bar' width={15} height={15} className='rounded-full'/>
+        <Image loading="lazy" src='/resources/next.png' alt='Show Navigation Bar' width={15} height={15} className='rounded-full'/>
       </motion.button>
     </div>
    )     

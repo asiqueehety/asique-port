@@ -72,7 +72,7 @@ export default function Academies(props){
             className='bg-white/10 border border-none shadow-lg rounded-2xl w-full h-fit grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr]'
             >
                 <div className='grid xl:grid-rows-[3fr_1fr_1fr] grid-rows-[1fr_0.2fr_0.1fr]' onMouseOver={()=>{setShowFull(true)}} onMouseOut={()=>{setShowFull(false)}}>
-                    <Image
+                    <Image loading="lazy"
                     src={inst_img}
                     alt='pic of school'
                     width={200} height={200}
@@ -91,7 +91,7 @@ export default function Academies(props){
                     initial={{height:0, opacity:0}}
                     animate={{height:"auto",opacity:1}}>
                         <a href={inst_location} target='_blank'>
-                        <div className='flex flex-row gap-2 h-fit w-fit'><Image src={location_tag} alt='Location tag' width={25} height={25}/><div className='w-fit'>{inst_short_location}</div></div>
+                        <div className='flex flex-row gap-2 h-fit w-fit'><Image loading="lazy" src={location_tag} alt='Location tag' width={25} height={25}/><div className='w-fit'>{inst_short_location}</div></div>
                         </a>
                     </motion.div>
                 </div>
