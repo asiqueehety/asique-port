@@ -9,8 +9,8 @@ export default function Skill_card(props) {
     const {title,skills}=props
 
   return (
-    <div className='backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-2xl w-fit h-fit m-3'>
-        <h1 className='backdrop-blur-md bg-blue-300/40 border border-none shadow-lg rounded-xl m-1 text-2xl text-center'>{title}</h1>
+    <div className='bg-white/10 border border-none shadow-lg rounded-2xl w-fit h-fit m-3'>
+        <h1 className='bg-blue-300/40 border border-none shadow-lg rounded-xl m-1 text-2xl text-center'>{title}</h1>
         <div className='flex flex-row justify-evenly'>
             <div className={` ${font2.className} flex flex-col justify-evenly text-sm m-3`}>
                 <h2 className='bg-amber-400/30 rounded-lg text-center' >Skill</h2>

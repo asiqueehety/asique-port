@@ -43,6 +43,7 @@ export default function Intro() {
       animate={{ opacity: 1, y: 0, x: 0 }}
       exit={{ opacity: 0, y: -30, x: 0 }}
       transition={{ duration: 0.3 }}
+      className='ml-2'
       >
           {showHello && <motion.span
           initial={{ opacity: 0, y: 0, x: 0 }}
@@ -70,7 +71,7 @@ export default function Intro() {
           transition={{ duration: 0.3 }}
           ><span className='text-4xl'>I'm a</span><ImAWhat/>
           </motion.span>}
-      </motion.h1>
+        </motion.h1>
       <div className='fixed bottom-0 right-0 w-screen lg:w-200 md:w-screen'>
         <Mypic/>
       </div>

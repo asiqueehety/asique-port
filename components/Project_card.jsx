@@ -27,8 +27,8 @@ export default function Skill_card(props) {
 
   return (
     <AnimatePresence>
-    <div className={`backdrop-blur-md bg-white/10 border border-none  rounded-2xl h-fit w-100 m-3 flex flex-col ${font2.className}`}>
-        <motion.div className='flex flex-row backdrop-blur-md bg-cyan-600 border-none  rounded-2xl m-3'
+    <div className={`bg-white/10 border border-none  rounded-2xl h-fit w-100 m-3 flex flex-col ${font2.className}`}>
+        <motion.div className='flex flex-row bg-cyan-600 border-none  rounded-2xl m-3'
         onMouseOver={()=>{setHoveredTitle(true)}}
         onMouseOut={()=>{setHoveredTitle(false)}}
         onClick={()=>{setHoveredTitle(!hoveredTitle)}}
@@ -44,13 +44,13 @@ export default function Skill_card(props) {
                 <a href={repoLink} target='_blank'><Image src={githubIcon} alt='Github Icon' width={32} height={32}/></a>
             </motion.div>}
         </motion.div>
-        <div className='backdrop-blur-md bg-black/1 border border-none rounded-2xl m-3 mt-0 mb-0 h-fit w-fit'><p className=' m-3 flex justify-center'>{shortDesc}</p></div>
+        <div className='bg-black/1 border border-none rounded-2xl m-3 mt-0 mb-0 h-fit w-fit'><p className=' m-3 flex justify-center'>{shortDesc}</p></div>
         
-        <div className={`backdrop-blur-md bg-white/10 border border-none  rounded-2xl h-fit w-fit m-3 flex flex-row flex-wrap text-sm ${font2.className}`} >
+        <div className={`bg-white/10 border border-none  rounded-2xl h-fit w-fit m-3 flex flex-row flex-wrap text-sm ${font2.className}`} >
         {
             skills.map((skill,ind)=>{
                 return (
-                <div key={ind} className={`backdrop-blur-md bg-neutral-800 border border-none  rounded-2xl h-fit w-fit m-1 flex flex-row flex-wrap`}>
+                <div key={ind} className={`bg-neutral-800 border border-none  rounded-2xl h-fit w-fit m-1 flex flex-row flex-wrap`}>
                     <p className='m-1'>{skill}</p>
                 </div>)
             })

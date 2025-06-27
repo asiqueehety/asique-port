@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
   return (
   <html lang="en" className={exo2.className}>
-    <body className="antialiased">
+    <body className="antialiased text-white ">
       <Background/>
       <HomeLayoutShowWhat>
         {children}

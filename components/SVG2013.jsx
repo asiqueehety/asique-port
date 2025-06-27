@@ -19,9 +19,7 @@ animate={{
           transition={{
             duration: 2,
             ease: 'easeInOut',
-            repeat: Infinity,
-            repeatType: 'loop',
-            repeatDelay: 10,
+
             stroke: {
               duration: 2,
               ease: 'linear',
@@ -40,9 +38,7 @@ animate={{
           transition={{
             duration: 2,
             ease: 'easeInOut',
-            repeat: Infinity,
-            repeatType: 'loop',
-            repeatDelay: 10,
+
             stroke: {
               duration: 2,
               ease: 'linear',
@@ -61,9 +57,7 @@ animate={{
           transition={{
             duration: 2,
             ease: 'easeInOut',
-            repeat: Infinity,
-            repeatType: 'loop',
-            repeatDelay: 10,
+
             stroke: {
               duration: 2,
               ease: 'linear',
@@ -82,9 +76,7 @@ animate={{
           transition={{
             duration: 2,
             ease: 'easeInOut',
-            repeat: Infinity,
-            repeatType: 'loop',
-            repeatDelay: 10,
+
             stroke: {
               duration: 2,
               ease: 'linear',
