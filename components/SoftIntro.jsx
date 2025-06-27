@@ -36,7 +36,7 @@ export default function SoftIntro() {
   return (
     <section>
       <motion.h1
-      className={`${lexend_font.className} text-4xl lg:text-8xl mb-5 text-black bg-white w-fit`}
+      className={`${lexend_font.className} text-4xl sm:text-6xl lg:text-8xl mb-5 text-black bg-white w-fit`}
       initial={{ x: -50, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.1 }}
@@ -83,7 +83,7 @@ export default function SoftIntro() {
 
       <motion.div
       ref={glowRef}
-      className="relative backdrop-blur-md bg-black/30 border border-white/20 rounded-2xl shadow-lg p-6 max-w-5xl text-white h-fit justify-center mr-5 w-fit overflow-hidden cursor-pointer mt-3 mb-3"
+      className="relative backdrop-blur-md bg-black/30 border border-none rounded-2xl shadow-lg p-6 max-w-5xl text-white h-fit justify-center mr-5 w-fit overflow-hidden cursor-pointer mt-3 mb-3"
       onClick={() => setReadBio(!readBio)}
       onMouseEnter={() => setHovering(true)}
       onMouseLeave={() => setHovering(false)}
@@ -97,10 +97,11 @@ export default function SoftIntro() {
             exit={{ opacity: 0 }}
           />
         )}
-
+        <AnimatePresence>
         {!readBio ? (
           <motion.h2
           className="text-lg relative z-10 animate-bounce text-blue-200 p-0"
+          key="clickToReadBio"
           initial={{ height:100,opacity: 0 }}
           animate={{ height:'auto',opacity: 1 }}
           transition={{ duration: 0.4 }}
@@ -108,9 +109,9 @@ export default function SoftIntro() {
             more about me
           </motion.h2>
         ) : (
-          <AnimatePresence>
             <motion.p
             className="relative z-10 text-blue-200"
+            key="readBio"
             initial={{ height:0,opacity: 0 }}
             animate={{ height:'auto',opacity: 1 }}
             exit={{height:0, opacity:1}}
@@ -123,10 +124,7 @@ export default function SoftIntro() {
               <br />
               Whether I’m debugging a tricky algorithm, sketching the wireframe of a new interface, building cross-platform apps, or studying the anatomy of a CPU instruction cycle—I’m always driven by the same goal: to understand deeply and create meaningfully.
             </motion.p>
-          </AnimatePresence>
-
-            
-        )}
+        )}</AnimatePresence>
       </motion.div>
     </section>
   )

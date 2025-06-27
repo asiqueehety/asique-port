@@ -43,9 +43,11 @@ export default function Tree_webdev() {
     <div className="mt-0 p-3 bg-blue-950 border-none lg:rounded-b-3xl rounded-3xl lg:text-md text-sm font-mono w-fit h-fit">
       <TreeNode label="Web Development">
         <TreeNode label="Frontend">
-          <TreeNode label="HTML" />
           <TreeNode label="CSS" />
+          <TreeNode label="Tailwind CSS" />
+          <TreeNode label="Bootstrap CSS" />
           <TreeNode label="JavaScript" />
+          <TreeNode label="Embedded JavaScript" />
           <TreeNode label="React" />
           <TreeNode label="Framer Motion" />
           <TreeNode label="Threejs"/>

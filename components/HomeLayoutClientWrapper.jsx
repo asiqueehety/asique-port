@@ -17,7 +17,7 @@ export default function HomeLayoutClientWrapper({ children }) {
   return (
     <div className={exo2.className}>
         <CircularNavbar />
-        <section className="lg:ml-70 md:ml-40 sm:ml-20 mt-10 ml-3 mr-3 text-md">
+        <section className="lg:ml-60 mt-10 ml-3 mr-3 text-md">
             <AnimatePresence mode="wait">
                 <motion.div
                     key={path}

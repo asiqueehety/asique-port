@@ -111,7 +111,7 @@ export default function Page() {
     {
       'shortDesc':'my personal portfolio',
       'githubRepoLink':'https://github.com/asiqueehety/asique-port',
-      'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','Threejs'],
+      'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','Threejs','Vantajs'],
       'link':'https://asiqueehety.vercel.app/',
       'image':'/resources/portfolio-ss.png'
     }      

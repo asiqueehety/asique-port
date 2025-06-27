@@ -9,6 +9,8 @@ import gmail from '@/public/resources/gmail.png'
 import phone from '@/public/resources/phone-call.png'
 import facebook from '@/public/resources/facebook.png'
 import twitter from '@/public/resources/twitter.png'
+import instagram from '@/public/resources/instagram.png'
+
 
 import Image from 'next/image'
 import {useState} from 'react'
@@ -25,7 +27,7 @@ export default function Connect() {
   
   
   return (
-    <motion.div className='relative backdrop-blur-md bg-black/30 border border-white/20 rounded-2xl shadow-lg p-6 max-w-5xl text-white h-fit justify-center mr-5 w-fit overflow-hidden cursor-pointer mt-3 mb-3 flex lg:flex-row flex-col flex-1/2'>
+    <motion.div className='relative backdrop-blur-md bg-black/30 border border-white/10 rounded-2xl shadow-lg p-6 max-w-5xl text-white h-fit justify-center mr-5 w-fit overflow-hidden cursor-pointer mt-3 mb-3 flex lg:flex-row flex-col flex-1/2'>
       <motion.h1
       className={`${font.className} text-3xl`}>
           Get in touch!
@@ -40,9 +42,28 @@ export default function Connect() {
             <a href='mailto:asique228@gmail.com' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
               <Image src={gmail} alt='gmail icon' height={40} width={40}/>
             </a>
-            <a href='tel:+8801896121096' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
-              <Image src={phone} alt='phone icon' height={40} width={40}/>
+            
+            <a href='tel:+8801896121096' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'
+            onMouseOver={()=>{setHoveredP(true)}}
+            onMouseOut={()=>{setHoveredP(false)}}
+            >
+                <Image src={phone} alt='phone icon' height={40} width={40}/>
+                <AnimatePresence>
+                {hoveredPhone && 
+                
+                  <motion.div
+                  className='text-2xl'
+                  key="phoneNumber"
+                  initial={{width:0, opacity:0}}
+                  animate={{width:'auto',opacity:1}}
+                  exit={{width:0,opacity:0}}
+                  transition={{duration:0.3}}>
+                    +8801896121096
+                  </motion.div>}
+                </AnimatePresence>
             </a>
+            
+            
           </motion.div>
       </motion.h1>
       <motion.button className='absolute top-0 right-0 p-1 h-full bg-gray-500 rounded-r-xl'
@@ -76,6 +97,9 @@ export default function Connect() {
                 </a>
                 <a href='https://x.com/imposteht' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
                   <Image src={twitter} alt='x icon' height={40} width={40}/>
+                </a>
+                <a href='https://www.instagram.com/salzareht/' target='_blank' rel="noopener noreferrer" className='inline-flex items-center gap-2 rounded-xl h-fit w-fit mr-2 text-sm px-2 py-1 transition-all'>
+                  <Image src={instagram} alt='x icon' height={40} width={40}/>
                 </a>
               </motion.div>
             </motion.h1>

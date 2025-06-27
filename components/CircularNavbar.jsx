@@ -23,7 +23,7 @@ export default function CircularNavbar()
   //Run once after mount to detect mobile width
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      if (window.innerWidth < 640) {
+      if (window.innerWidth < 1024) {
         setViewNav(false) //hiding nav on small screens
       }
       setIsMounted(true) //marking client render complete
@@ -48,7 +48,7 @@ export default function CircularNavbar()
   function linkClicked(e)
   {
     setCur(e.target.id);
-    if(window.innerWidth < 640) setViewNav(false)
+    if(window.innerWidth < 1024) setViewNav(false)
   }
 
   return(
@@ -76,7 +76,7 @@ export default function CircularNavbar()
           </ul>
           
         </motion.nav>}
-        {viewNav && window.innerWidth < 1040 && (
+        {viewNav && window.innerWidth < 1024 && (
           <motion.div
             key="overlay"
             initial={{ opacity: 0 }}

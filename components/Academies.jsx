@@ -45,7 +45,7 @@ export default function Academies(props){
     const vb="140 120 300 130"
   return (
     <AnimatePresence>
-        <motion.div className={`rounded-r-2xl rounded-l-4xl grid lg:grid-cols-[1fr_3fr] lg:gap-1 lg:w-300 ${font2.className} ${hovered? 'shadow-[0_0_15px_5px_rgba(34,211,238,0.7)]':''} p-1`}
+        <motion.div className={`rounded-r-2xl rounded-l-4xl grid lg:grid-cols-[1fr_3fr] lg:gap-1 lg:w-300 ${font2.className} ${hovered? 'shadow-[0_0_1px_1px_rgba(34,211,238,0.7)]':''} p-1`}
             ref={viewRef}
             initial={{x:-100, opacity:0}}
             animate={isInView? (hovered? {x:0,opacity:1,scale:0.99}:{x:0,opacity:1}):{x:-100,opacity:0}}
@@ -69,29 +69,29 @@ export default function Academies(props){
                 </div>
             </motion.div>
             <motion.div
-            className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl w-full grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr]'
+            className='backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-2xl w-full h-fit grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr]'
             >
-                <div className='grid lg:grid-rows-[3fr_1fr_1fr] grid-rows-[1.5fr_1fr_1fr]' onMouseOver={()=>{setShowFull(true)}} onMouseOut={()=>{setShowFull(false)}}>
+                <div className='grid xl:grid-rows-[3fr_1fr_1fr] grid-rows-[1fr_0.2fr_0.1fr]' onMouseOver={()=>{setShowFull(true)}} onMouseOut={()=>{setShowFull(false)}}>
                     <Image
                     src={inst_img}
                     alt='pic of school'
                     width={200} height={200}
                     className="m-2 rounded-xl" />
                     {!showFull? 
-                    <div className={`${font2.className} backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl ml-2 text-lg lg:w-fit h-fit w-full p-1`}>
+                    <div className={`${font2.className} backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-2xl ml-2 text-lg lg:w-fit h-fit w-full p-1`}>
                         {inst_name}
                     </div>
                     :
-                    <motion.div className={`${font2.className} backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl ml-2 text-4xl lg:w-fit h-fit w-full p-1`}
+                    <motion.div className={`${font2.className} backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-2xl ml-2 text-4xl lg:w-fit h-fit w-full p-1`}
                     initial={{height:0, opacity:0}}
                     animate={{height:"auto",opacity:1}}>
                         <a href={inst_link} target='_blank'>{shortName}</a>
                     </motion.div>}
-                    <motion.div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl lg:w-fit p-2 m-2 hover:scale-95 transition-all h-fit w-full'
+                    <motion.div className='backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-2xl lg:w-fit p-2 m-2 hover:scale-95 transition-all h-fit w-full'
                     initial={{height:0, opacity:0}}
                     animate={{height:"auto",opacity:1}}>
                         <a href={inst_location} target='_blank'>
-                        <div className='flex lg:flex-row flex-col gap-2 h-fit w-fit'><Image src={location_tag} alt='Location tag' width={25} height={25}/><div>{inst_short_location}</div></div>
+                        <div className='flex flex-row gap-2 h-fit w-fit'><Image src={location_tag} alt='Location tag' width={25} height={25}/><div className='w-fit'>{inst_short_location}</div></div>
                         </a>
                     </motion.div>
                 </div>
@@ -100,10 +100,10 @@ export default function Academies(props){
                     <>
                         <></>
                         <div className='rounded-2xl size-fit flex flex-row gap-1' >
-                            <div className='backdrop-blur-md border border-white/20 shadow-lg rounded-xl size-fit p-1'>Semester:</div><div className='flex items-center'>{session}th / 8</div>
+                            <div className='backdrop-blur-md border border-none shadow-lg rounded-xl size-fit p-1'>Semester:</div><div className='flex items-center'>{session}th / 8</div>
                         </div>
                         <div className='rounded-2xl size-fit  flex flex-row gap-1' >
-                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl size-fit p-1'>CGPA:</div><div className='flex items-center'>{result}</div>
+                            <div className='backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-xl size-fit p-1'>CGPA:</div><div className='flex items-center'>{result}</div>
                         </div>
                     </>
                     :
@@ -113,7 +113,7 @@ export default function Academies(props){
                             {session}
                         </div>
                         <div className='rounded-lg size-fit flex flex-row gap-1' >
-                            <div className='backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl size-fit p-1'>GPA:</div><div className='flex items-center'>{result}</div>
+                            <div className='backdrop-blur-md bg-white/10 border border-none shadow-lg rounded-xl size-fit p-1'>GPA:</div><div className='flex items-center'>{result}</div>
                         </div>
                     </>} 
                 </div>
