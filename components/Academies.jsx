@@ -1,7 +1,6 @@
 'use client'
 
 import React,{ useRef , useState } from 'react'
-import {AnimatePresence, motion, scale, useInView} from 'framer-motion'
 import { Lexend, Glory } from 'next/font/google'
 import SVG2021 from '@/components/SVG2021';
 import SVG2019 from '@/components/SVG2019';
@@ -11,6 +10,7 @@ import SVG2013 from '@/components/SVG2013';
 import Image from 'next/image'
 import {Typewriter} from 'react-simple-typewriter'
 import location_tag from '../public/resources/location.png'
+import { motion } from 'framer-motion';
 
 
 const font=Lexend({
@@ -20,7 +20,7 @@ const font=Lexend({
 
 const font2=Glory({
     subsets:['latin'],
-    weight:['400']
+    weight:['700']
 })
 
 export default function Academies(props){
@@ -40,16 +40,14 @@ export default function Academies(props){
 
     const [hovered,setHovered]=useState(false)
     const [showFull, setShowFull]= useState(false);
-    const viewRef = useRef(null)
-    const isInView = useInView(viewRef, { once: false, margin: '0px 0px -10% 0px',threshold: 0.1 })
+    // const viewRef = useRef(null)
+    // const isInView = useInView(viewRef, { once: false, margin: '0px 0px -10% 0px',threshold: 0.1 })
     const vb="140 120 300 130"
   return (
-    <AnimatePresence>
         <motion.div className={` backdrop-blur-md rounded-r-2xl rounded-l-4xl grid lg:grid-cols-[1fr_3fr] lg:gap-1 lg:w-300 ${font2.className} ${hovered? 'shadow-[0_0_1px_1px_rgba(34,211,238,0.7)]':''} p-1`}
-            ref={viewRef}
-            initial={{x:-100, opacity:0}}
-            animate={isInView? (hovered? {x:0,opacity:1,scale:0.99}:{x:0,opacity:1}):{x:-100,opacity:0}}
-            transition={{duration:0.4}}
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:0.5}}
             onMouseEnter={()=>{setHovered(true)}}
             onMouseLeave={()=>{setHovered(false)}}>
             <div className={`text-xl gap-0 rounded-2xl grid grid-rows-1 grid-cols-[1fr_1fr] ml-3 ${font2.className} w-fit h-fit`}>
@@ -82,18 +80,14 @@ export default function Academies(props){
                         {inst_name}
                     </div>
                     :
-                    <motion.div className={`${font2.className} bg-white/10 border border-none shadow-lg rounded-2xl ml-2 text-4xl lg:w-fit h-fit w-full p-1`}
-                    initial={{height:0, opacity:0}}
-                    animate={{height:"auto",opacity:1}}>
+                    <div className={`${font2.className} bg-white/10 border border-none shadow-lg rounded-2xl ml-2 text-4xl lg:w-fit h-fit w-full p-1`}>
                         <a href={inst_link} target='_blank'>{shortName}</a>
-                    </motion.div>}
-                    <motion.div className='bg-white/10 border border-none shadow-lg rounded-2xl lg:w-fit p-2 m-2 hover:scale-95 transition-all h-fit w-full'
-                    initial={{height:0, opacity:0}}
-                    animate={{height:"auto",opacity:1}}>
+                    </div>}
+                    <div className='bg-white/10 border border-none shadow-lg rounded-2xl lg:w-fit p-2 m-2 hover:scale-95 transition-all h-fit w-full'>
                         <a href={inst_location} target='_blank'>
-                        <div className='flex flex-row gap-2 h-fit w-fit'><Image loading="lazy" src={location_tag} alt='Location tag' width={25} height={25}/><div className='w-fit'>{inst_short_location}</div></div>
+                        <div className='flex lg:flex-row flex-col gap-2 h-fit w-fit'><Image loading="lazy" src={location_tag} alt='Location tag' width={25} height={25}/><div className='w-fit'>{inst_short_location}</div></div>
                         </a>
-                    </motion.div>
+                    </div>
                 </div>
                 <div className='grid grid-rows-3 items-center ml-10 mt-10'>
                     {inst_current? 
@@ -126,7 +120,6 @@ export default function Academies(props){
                 }
             </div>
         </motion.div>
-    </AnimatePresence>
 
 
   );
