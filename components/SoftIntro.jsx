@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useRef } from 'react'
+import React, { useState} from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Lexend } from 'next/font/google'
 import {Typewriter} from 'react-simple-typewriter'
@@ -21,9 +21,6 @@ const lexend_font2 = Lexend({ weight: ['500'], subsets: ['latin'] })
 export default function SoftIntro() {
   const [locHover, setLocHover] = useState(false)
   const [readBio, setReadBio] = useState(false)
-  const glowRef = useRef(null)
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
-  const [hovering, setHovering] = useState(false)
 
   function handleMouseMove(e) {
     const bounds = glowRef.current.getBoundingClientRect()
@@ -34,13 +31,12 @@ export default function SoftIntro() {
   }
 
   return (
-    <section>
-      <motion.h1
-      className={`${lexend_font.className} text-4xl sm:text-6xl lg:text-8xl mb-5 text-black bg-white w-fit`}
-      initial={{ x: -50, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 0.1 }}
-      >
+    <motion.section
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{duration:0.5}}>
+      <h1
+      className={`${lexend_font.className} text-4xl sm:text-6xl lg:text-8xl mb-5 text-black bg-white w-fit`}>
         <Typewriter
         words={['<Hey, Asique here./']}
         loop={Infinity}
@@ -50,8 +46,8 @@ export default function SoftIntro() {
         deleteSpeed={100}
         delaySpeed={10000}
         />
-      </motion.h1>
-      <motion.p className={`${lexend_font2.className} text-lg mb-10`}>
+      </h1>
+      <p className={`${lexend_font2.className} text-lg mb-10`}>
         based in
         <motion.a
         className={`${locHover ? 'text-black' : 'text-white'} text-2xl lg:text-4xl text-center`}
@@ -61,10 +57,10 @@ export default function SoftIntro() {
         onMouseOut={() => setLocHover(false)}
         animate={locHover ? { background: '#ffffff', scale: 1.2 } : { background: '#000000' }}
         >
-          {window.innerWidth<640? <br/>:' '}Dhaka, Bangladesh
+          {window.innerWidth<1024? <br/>:' '}Dhaka, Bangladesh
         </motion.a>.
         <br />Building, solving, and designing with code
-      </motion.p>
+      </p>
       
       <div className='flex flex-row flex-wrap flex-1/5 gap-6'>
         <Tree_webdev/>
@@ -81,22 +77,10 @@ export default function SoftIntro() {
 
  
 
-      <motion.div
-      ref={glowRef}
+      <div
       className="relative backdrop-blur-md bg-black/30 border border-none rounded-2xl shadow-lg p-6 max-w-5xl text-white h-fit justify-center mr-5 w-fit overflow-hidden cursor-pointer mt-3 mb-3"
       onClick={() => setReadBio(!readBio)}
-      onMouseEnter={() => setHovering(true)}
-      onMouseLeave={() => setHovering(false)}
-      onMouseMove={handleMouseMove}
       >
-        {hovering && (
-          <motion.div
-            className="absolute bg-cyan-300/30 rounded-full pointer-events-none blur-2xl opacity-80"
-            style={{ top: mousePos.y - 80, left: mousePos.x - 80 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          />
-        )}
         <AnimatePresence>
         {!readBio ? (
           <motion.h2
@@ -125,7 +109,7 @@ export default function SoftIntro() {
               Whether I’m debugging a tricky algorithm, sketching the wireframe of a new interface, building cross-platform apps, or studying the anatomy of a CPU instruction cycle—I’m always driven by the same goal: to understand deeply and create meaningfully.
             </motion.p>
         )}</AnimatePresence>
-      </motion.div>
-    </section>
+      </div>
+    </motion.section>
   )
 }

@@ -10,7 +10,7 @@ import githubIcon from '../public/resources/github-mark-white.png'
 
 
 
-const font2 = Lexend({subsets:['latin'],weight:['200']})
+const font2 = Lexend({subsets:['latin'],weight:['300']})
 const font = Lexend({subsets:['latin'],weight:['500']})
 
 export default function Skill_card(props) {
@@ -50,7 +50,7 @@ export default function Skill_card(props) {
         {
             skills.map((skill,ind)=>{
                 return (
-                <div key={ind} className={`bg-neutral-800 border border-none  rounded-2xl h-fit w-fit m-1 flex flex-row flex-wrap`}>
+                <div key={ind} className={`bg-green-300 text-black border border-none  rounded-2xl h-fit w-fit m-1 flex flex-row flex-wrap`}>
                     <p className='m-1'>{skill}</p>
                 </div>)
             })

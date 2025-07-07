@@ -3,10 +3,6 @@ import webdev from '../../public/resources/webdev.png'
 import appdev from '../../public/resources/appdev.png'
 import prog from '../../public/resources/programming.png'
 import uiux from '../../public/resources/uiux.png'
-import dereld from '../../public/resources/dereld-logo.png'
-import cooktwah from '../../public/resources/cooktwah-logo.png'
-import os from '../../public/resources/os.png'
-import portfolio from '../../public/resources/portfolio-ss.png'
 
 
 
@@ -114,6 +110,14 @@ export default function Page() {
       'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','Threejs','Vantajs'],
       'link':'https://asiqueehety.vercel.app/',
       'image':'/resources/portfolio-ss.png'
+    },
+    'FoLo':
+    {
+      'shortDesc':"A web app project where people can post something they lost and other people will find the stuff for them in exchange for a reward and vice versa.",
+      'githubRepoLink':'https://github.com/asiqueehety/folo.git',
+      'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','JWT','Bcrypt','MongoDB'],
+      'link':'...',
+      'image':'/resources/folo.png'
     }      
   }
 
