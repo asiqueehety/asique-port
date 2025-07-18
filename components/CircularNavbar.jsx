@@ -125,15 +125,15 @@ export default function CircularNavbar()
   />
 </motion.button> */}
 <motion.button 
-  className='bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 text-white rounded-2xl p-3 mt-3 
+  className='bg-gradient-to-r from-cyan-100 via-purple-100 to-neutral-200 text-gray-900 rounded-2xl p-1 mt-3 
   fixed z-50 transition-transform duration-300 shadow-xl animate-gradient-shift'
   onClick={() => setViewNav(!viewNav)}
-  initial={{ x: -7, y: -62, rotate: 0 }}
+  initial={{ x: -6, y: -59, rotate: 0 }}
   animate={{ rotate: viewNav ? 180 : 0 }}
   transition={{ duration: 0.1 }}
 >
   <Menu 
-    className="w-8 h-8 text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]"
+    className="w-8 h-8 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]"
   />
 </motion.button>
 
