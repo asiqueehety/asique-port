@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import {IBM_Plex_Sans_Condensed} from 'next/font/google';
+import { Menu } from 'lucide-react';
 
 const font = IBM_Plex_Sans_Condensed({
   subsets: ['latin'],
@@ -87,15 +88,55 @@ export default function CircularNavbar()
           />
         )}
       </AnimatePresence>
-      
-      <motion.button className='bg-col4 text-col0 rounded-full p-2 mt-3 hover:bg-white hover:text-col5 transition-all duration-300 fixed z-50' 
+      {/* <motion.button className='bg-col4 text-col0 rounded-2xl p-2 mt-3 hover:bg-white hover:text-col5 transition-all duration-300 fixed z-50' 
         onClick={()=>{setViewNav(!viewNav)}}
-        initial={{x:10, y: -30, rotate: 0}}
+        initial={{x:-7, y: -62, rotate: 0}}
         animate={{rotate: viewNav? 180: 0}}
         transition={{duration: 0.1}}
         >
-        <Image loading="lazy" src='/resources/next.png' alt='Show Navigation Bar' width={15} height={15} className='rounded-full'/>
-      </motion.button>
+          <Menu 
+            className="w-8 h-8 text-black hover:text-emerald-400 hover:scale-110 transition-transform duration-300"
+          />
+      </motion.button> */}
+      {/* <motion.button 
+  className='bg-col4 text-col0 rounded-2xl p-2 mt-3 hover:bg-white hover:text-col5 transition-all duration-300 fixed z-50 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]' 
+  onClick={()=>{setViewNav(!viewNav)}}
+  initial={{x:-7, y: -62, rotate: 0}}
+  animate={{rotate: viewNav ? 180 : 0}}
+  transition={{duration: 0.1}}
+>
+  <Menu 
+    className="w-8 h-8 text-black hover:text-emerald-400 hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(0,255,0,0.5)]"
+  />
+</motion.button> */}
+{/* <motion.button 
+  className='bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white rounded-2xl p-3 mt-3 
+  fixed z-50 
+  hover:scale-110 hover:from-pink-500 hover:to-indigo-500 transition-all duration-300 
+  shadow-[0_0_20px_rgba(255,0,150,0.6)] animate-pulse'
+  
+  onClick={() => setViewNav(!viewNav)}
+  initial={{ x: -7, y: -62, rotate: 0 }}
+  animate={{ rotate: viewNav ? 180 : 0 }}
+  transition={{ duration: 0.1 }}
+>
+  <Menu 
+    className="w-8 h-8 text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]"
+  />
+</motion.button> */}
+<motion.button 
+  className='bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 text-white rounded-2xl p-3 mt-3 
+  fixed z-50 transition-transform duration-300 shadow-xl animate-gradient-shift'
+  onClick={() => setViewNav(!viewNav)}
+  initial={{ x: -7, y: -62, rotate: 0 }}
+  animate={{ rotate: viewNav ? 180 : 0 }}
+  transition={{ duration: 0.1 }}
+>
+  <Menu 
+    className="w-8 h-8 text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]"
+  />
+</motion.button>
+
     </div>
    )     
 }
