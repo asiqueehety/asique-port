@@ -24,6 +24,7 @@ export default function Skill_card(props) {
     const repoLink = Object.entries(proj)[1][1].githubRepoLink
     const skills = Object.entries(proj)[1][1].skillsUsed
     const img = Object.entries(proj)[1][1].image
+    const link = Object.entries(proj)[1][1].link
 
   return (
     <AnimatePresence>
@@ -45,7 +46,18 @@ export default function Skill_card(props) {
             </motion.div>}
         </motion.div>
         <div className='bg-black/1 border border-none rounded-2xl m-3 mt-0 mb-0 h-fit w-fit'><p className=' m-3 flex justify-center'>{shortDesc}</p></div>
-        
+
+        <div className='flex flex-row-reverse'>
+            {!!link && (
+                <a
+                href={link}
+                target='_blank'
+                className='bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium px-8 py-2 rounded-full m-3 mt-0 mb-0 h-fit w-fit shadow-md hover:from-indigo-500 hover:to-purple-500 hover:scale-105 transform transition-all duration-300'
+                >
+                Visit
+                </a>
+            )}
+        </div>
         <div className={`bg-white/10 border border-none  rounded-2xl h-fit w-fit m-3 flex flex-row flex-wrap text-sm ${font2.className}`} >
         {
             skills.map((skill,ind)=>{

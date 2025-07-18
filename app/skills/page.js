@@ -100,7 +100,7 @@ export default function Page() {
       'shortDesc':'A social media platform built and optimized for debating and critical thinking about the world\'s recent and historical issues.',
       'githubRepoLink':'https://github.com/asiqueehety/DeRel-d',
       'skillsUsed':['HTML','CSS','Javascript','Embedded Javascript','React','Nodejs','Express','Postgresql'],
-      'link':'...',
+      'link':'',
       'image':'/resources/dereld-logo.png'
     },
     'This portfolio':
@@ -116,7 +116,7 @@ export default function Page() {
       'shortDesc':"A web app project where people can post something they lost and other people will find the stuff for them in exchange for a reward and vice versa.",
       'githubRepoLink':'https://github.com/asiqueehety/folo.git',
       'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','JWT','Bcrypt','MongoDB'],
-      'link':'...',
+      'link':'https://foundlost.vercel.app/',
       'image':'/resources/folo.png'
     }      
   }
@@ -128,7 +128,7 @@ export default function Page() {
       'shortDesc':'A cooking recipe finder app, which will allow users to search for recipes based on ingredients they have at home.',
       'githubRepoLink':'https://github.com/asiqueehety/Cook-Twah',
       'skillsUsed':['Java','XML','Android Studio','Firebase'],
-      'link':'...',
+      'link':'',
       'image':'/resources/cooktwah-logo.png'
     }
   }
@@ -139,7 +139,7 @@ export default function Page() {
       'shortDesc':'(WORK IN PROGRESS) A simple operating system built from scratch.',
       'githubRepoLink':'https://github.com/asiqueehety/Numerical-Codeworks',
       'skillsUsed':['C','x86 Assembly','Kernel development'],
-      'link':'...',
+      'link':'',
       'image':'/resources/os.png'
     },
     'Taxonomy.io':
@@ -147,7 +147,7 @@ export default function Page() {
       'shortDesc':'(WORK IN PROGRESS) An terminal based project which will recognise animals based on their characteristics upon seeing their images (much to be done).',
       'githubRepoLink':'https://github.com/asiqueehety/Taxonomy-Evolution',
       'skillsUsed':['C++'],
-      'link':'...',
+      'link':'',
       'image':'/resources/taxonomy.png'
     }
   }
