@@ -12,6 +12,9 @@ const exo2 = Exo_2({
 export const metadata = {
   title: 'Asique Ehety',
   description: 'Portfolio of AsiqueEhety',
+  icons: {
+    icon: '/resources/favicon.ico',
+  },
   }
 
 export default function RootLayout({ children }) {
