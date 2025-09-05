@@ -23,8 +23,10 @@ export default function Page() {
     },
     'Backend':
     {
+        
         'NodeJS':80,
         'ExpressJS':85,
+        'PHP':90,
         'Laravel':70
     },
     'Full-Stack':
@@ -35,8 +37,8 @@ export default function Page() {
       {
         'Postgresql':95,
         'MongoDB':80,
-        'Mysql':85,
-        'Firebase':90,
+        'Mysql':95,
+        'Firebase':95,
       }
   }
 
@@ -52,8 +54,8 @@ export default function Page() {
     {
       'Postgresql':95,
       'MongoDB':80,
-      'Mysql':85,
-      'Firebase':90
+      'Mysql':95,
+      'Firebase':95,
     }
   }
   const skill_section_uiux = 
@@ -118,7 +120,15 @@ export default function Page() {
       'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','JWT','Bcrypt','MongoDB'],
       'link':'https://foundlost.vercel.app/',
       'image':'/resources/folo.png'
-    }      
+    },
+    'Portfolio builder website':
+    {
+      'shortDesc':"A web app project where people can build their portfolios by providing their information and selecting a template. The app will generate a portfolio website for them. ",
+      'githubRepoLink':'https://github.com/asiqueehety/portfolio2-php.git',
+      'skillsUsed':['PHP','MySQL','HTML','CSS','JS','XAMPP','Session management'],
+      'link':'https://github.com/asiqueehety/portfolio2-php.git',
+      'image':'/resources/php-port.png'
+    }     
   }
 
   const proj_appdev = 
