@@ -23,10 +23,10 @@ export default function Background() {
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0x0,
-          shininess: 13.0,
+          shininess: 6.5,
           waveHeight: 40.0,
-          waveSpeed: 0.75,
-          zoom: 1.8,
+          waveSpeed: 0.5,
+          zoom: 1.0,
         })
       }
     }
