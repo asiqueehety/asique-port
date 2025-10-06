@@ -126,7 +126,7 @@ export default function Page() {
       'shortDesc':"A web app project where people can build their portfolios by providing their information and selecting a template. The app will generate a portfolio website for them. ",
       'githubRepoLink':'https://github.com/asiqueehety/portfolio2-php.git',
       'skillsUsed':['PHP','MySQL','HTML','CSS','JS','XAMPP','Session management'],
-      'link':'https://github.com/asiqueehety/portfolio2-php.git',
+      'link':'http://portbuilder.rf.gd',
       'image':'/resources/php-port.png'
     }     
   }
