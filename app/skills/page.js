@@ -140,6 +140,14 @@ export default function Page() {
       'skillsUsed':['Java','XML','Android Studio','Firebase'],
       'link':'',
       'image':'/resources/cooktwah-logo.png'
+    },
+    'BhaloBariwala':
+    {
+      'shortDesc':'An app for tenants and homeowners to connect to each other through a common platform.',
+      'githubRepoLink':'https://github.com/asiqueehety/bhalo-bariwala',
+      'skillsUsed':['Java','XML','Android Studio','SQLite'],
+      'link':'',
+      'image':'/resources/bhalobariwalalogo.png'
     }
   }
   const proj_softdev = 
