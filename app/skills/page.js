@@ -3,6 +3,7 @@ import webdev from '../../public/resources/webdev.png'
 import appdev from '../../public/resources/appdev.png'
 import prog from '../../public/resources/programming.png'
 import uiux from '../../public/resources/uiux.png'
+import techhardware from '../../public/resources/electronicslogo.png'
 
 
 
@@ -93,10 +94,47 @@ export default function Page() {
     }
   }
 
+  const skill_section_hardware =
+  {
+    'Embedded Systems':
+    {
+      'Arduino':95,
+      'C':95,
+      'Python':80,
+      'ESP32':85
+    },
+    'Internet of Things':
+    {
+      'Nodejs':95,
+      'Expressjs':90,
+      'Blynk':85,
+      'SQLite':90
+    },
+    'Version Control':
+    {
+      'Git & GitHub': 90
+    }
+  }
 //PROJECTS
 
   const proj_webdev = 
   {
+    'UnivVault':
+    {
+      'shortDesc':"A project developed for primarily CSE - KUET, but for university students of Bangladesh and more if upscaled big enough. Uni students will get all their assistance in here they need throughout their university academic journey",
+      'githubRepoLink':'https://github.com/asiqueehety/univ-vault',
+      'skillsUsed':['React','Nextjs','TypeScript','Tailwind CSS','Framer motion','JWT','Bcrypt','Supabase (Postgresql)'],
+      'link':'https://univ-vault.vercel.app/',
+      'image':'/resources/folo.png'
+    },
+    'FoLo':
+    {
+      'shortDesc':"A web app project where people can post something they lost and other people will find the stuff for them in exchange for a reward and vice versa.",
+      'githubRepoLink':'https://github.com/asiqueehety/folo.git',
+      'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','JWT','Bcrypt','MongoDB'],
+      'link':'https://foundlost.vercel.app/',
+      'image':'/resources/folo.png'
+    },
     'DeRel\'d':
     {
       'shortDesc':'A social media platform built and optimized for debating and critical thinking about the world\'s recent and historical issues.',
@@ -112,14 +150,6 @@ export default function Page() {
       'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','Threejs','Vantajs'],
       'link':'https://asiqueehety.vercel.app/',
       'image':'/resources/portfolio-ss.png'
-    },
-    'FoLo':
-    {
-      'shortDesc':"A web app project where people can post something they lost and other people will find the stuff for them in exchange for a reward and vice versa.",
-      'githubRepoLink':'https://github.com/asiqueehety/folo.git',
-      'skillsUsed':['React','Nextjs','Tailwind CSS','Framer motion','JWT','Bcrypt','MongoDB'],
-      'link':'https://foundlost.vercel.app/',
-      'image':'/resources/folo.png'
     },
     'Portfolio builder website':
     {
@@ -171,12 +201,25 @@ export default function Page() {
   }
   const proj_uiux = 
   {}
+
+    const proj_iot = 
+  {
+    'WheelchairX':
+    {
+      'shortDesc':'A smart wheelchair, controlled completely through hand movements and gestures, and connected to a locally hosted SQLite database, updating real time and demonstrating motion updates, positioning and direction changes through a dashboard hosted in local WiFi environment.',
+      'githubRepoLink':'https://github.com/asiqueehety/wheelchair-x',
+      'skillsUsed':['Arduino','ESP32','Nodejs','Expressjs','SQLite','HTML','CSS','Javascript'],
+      'link':'https://github.com/asiqueehety/wheelchair-x',
+      'image':'/resources/techhardware.jpg'
+    },
+  }
   return(
     <div className='*:mb-3'>
       <Skill_section title='Web Development' image={webdev} skillCard_props={skill_section_webdev} skill_read={true} projCard_props={proj_webdev}/>
       <Skill_section title='App Development' image={appdev} skillCard_props={skill_section_appdev} skill_read={false} projCard_props={proj_appdev}/>
       <Skill_section title='Software Development' image={prog} skillCard_props={skill_section_softdev} skill_read={false} projCard_props={proj_softdev}/>
       <Skill_section title='UI/UX Design' image={uiux} skillCard_props={skill_section_uiux} skill_read={false} projCard_props={proj_uiux}/>
+      <Skill_section title='Hardware Engineering' image={techhardware} skillCard_props={skill_section_hardware} skill_read={false} projCard_props={proj_iot}/>
       
     </div>
   )
